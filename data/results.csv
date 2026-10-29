@@ -1,0 +1,45 @@
+experiment,n,target,route,model,MAE,R2
+"A. All 127, formula features (v1.4 baseline)",127,latent heat,direct,Ridge,80.0,0.14
+"A. All 127, formula features (v1.4 baseline)",127,latent heat,direct,RF,67.6,0.21
+"A. All 127, formula features (v1.4 baseline)",127,latent heat,direct,GBR,64.6,0.31
+"A. All 127, formula features (v1.4 baseline)",127,latent heat,direct,GP,66.3,0.25
+"B. All 127, formula + measured Tm",127,latent heat,direct,Ridge,69.2,0.32
+"B. All 127, formula + measured Tm",127,latent heat,direct,RF,64.7,0.28
+"B. All 127, formula + measured Tm",127,latent heat,direct,GBR,65.7,0.22
+"B. All 127, formula + measured Tm",127,latent heat,direct,GP,63.8,0.41
+"C. All 127, entropy-of-fusion route (needs Tm)",127,latent heat,dS,Ridge,42.8,0.74
+"C. All 127, entropy-of-fusion route (needs Tm)",127,latent heat,dS,RF,49.4,0.72
+"C. All 127, entropy-of-fusion route (needs Tm)",127,latent heat,dS,GBR,60.5,0.37
+"C. All 127, entropy-of-fusion route (needs Tm)",127,latent heat,dS,GP,44.2,0.72
+"D. Inorganic+metal only, formula + Tm",72,latent heat,direct,Ridge,96.4,0.36
+"D. Inorganic+metal only, formula + Tm",72,latent heat,direct,RF,86.0,0.38
+"D. Inorganic+metal only, formula + Tm",72,latent heat,direct,GBR,88.8,0.34
+"D. Inorganic+metal only, formula + Tm",72,latent heat,direct,GP,96.0,0.31
+"E. Inorganic+metal only, entropy route",72,latent heat,dS,Ridge,57.6,0.78
+"E. Inorganic+metal only, entropy route",72,latent heat,dS,RF,59.1,0.75
+"E. Inorganic+metal only, entropy route",72,latent heat,dS,GBR,69.9,0.61
+"E. Inorganic+metal only, entropy route",72,latent heat,dS,GP,59.9,0.74
+"F. Organic only, formula + Tm",55,latent heat,direct,Ridge,21.7,0.66
+"F. Organic only, formula + Tm",55,latent heat,direct,RF,30.6,0.35
+"F. Organic only, formula + Tm",55,latent heat,direct,GBR,32.4,0.29
+"F. Organic only, formula + Tm",55,latent heat,direct,GP,25.9,0.53
+"G. Organic only, RDKit + Tm",55,latent heat,direct,Ridge,24.6,0.58
+"G. Organic only, RDKit + Tm",55,latent heat,direct,RF,25.8,0.47
+"G. Organic only, RDKit + Tm",55,latent heat,direct,GBR,24.7,0.5
+"G. Organic only, RDKit + Tm",55,latent heat,direct,GP,27.4,0.39
+"H. Organic only, RDKit, entropy route",55,latent heat,dS,Ridge,31.6,0.13
+"H. Organic only, RDKit, entropy route",55,latent heat,dS,RF,34.4,0.21
+"H. Organic only, RDKit, entropy route",55,latent heat,dS,GBR,31.9,0.23
+"H. Organic only, RDKit, entropy route",55,latent heat,dS,GP,29.5,0.14
+"T1. All 127, formula features",127,Tm,direct,Ridge,142.1,0.44
+"T1. All 127, formula features",127,Tm,direct,RF,82.7,0.65
+"T1. All 127, formula features",127,Tm,direct,GBR,82.5,0.69
+"T1. All 127, formula features",127,Tm,direct,GP,95.1,0.61
+"T2. Organic only, formula features",55,Tm,direct,Ridge,28.4,0.43
+"T2. Organic only, formula features",55,Tm,direct,RF,28.9,0.37
+"T2. Organic only, formula features",55,Tm,direct,GBR,28.4,0.34
+"T2. Organic only, formula features",55,Tm,direct,GP,23.7,0.26
+"T3. Organic only, RDKit descriptors",55,Tm,direct,Ridge,19.5,0.72
+"T3. Organic only, RDKit descriptors",55,Tm,direct,RF,23.0,0.6
+"T3. Organic only, RDKit descriptors",55,Tm,direct,GBR,23.1,0.55
+"T3. Organic only, RDKit descriptors",55,Tm,direct,GP,27.1,0.01
