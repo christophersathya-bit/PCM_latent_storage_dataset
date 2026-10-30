@@ -1,6 +1,6 @@
 # PCM Latent Heat Storage Dataset — ML- and CFD-ready
 
-![Materials](https://img.shields.io/badge/materials-561-2a78d6) ![Columns](https://img.shields.io/badge/columns-52-blue) ![CFD-ready](https://img.shields.io/badge/CFD--ready-241-eb6834) ![Sources](https://img.shields.io/badge/sources-34-1baf7a) ![Format](https://img.shields.io/badge/format-CSV-555555) ![Version](https://img.shields.io/badge/version-1.5-555555)
+![Materials](https://img.shields.io/badge/materials-561-2a78d6) ![Columns](https://img.shields.io/badge/columns-52-blue) ![CFD-ready](https://img.shields.io/badge/CFD--ready-313-eb6834) ![Sources](https://img.shields.io/badge/sources-34-1baf7a) ![Format](https://img.shields.io/badge/format-CSV-555555) ![Version](https://img.shields.io/badge/version-1.6-555555)
 
 A curated, machine-learning-ready dataset of **561 phase change materials (PCMs)** for latent heat thermal energy storage, spanning **−74 °C to 1085 °C** and covering organics, salt hydrates, molten salts, metals, eutectics, composites and commercial products from 10 suppliers. Every row carries its source and a data-quality flag. Built for **machine learning**, **CFD simulation** (enthalpy–porosity models in Fluent, COMSOL, OpenFOAM) and **chemistry / materials screening**.
 
@@ -12,8 +12,8 @@ Compiled by **Christopher Sathya**, October 2026.
 
 | File | What it is |
 |---|---|
-| [`data/pcm_ml_ready_v1_5.csv`](data/pcm_ml_ready_v1_5.csv) | Full dataset: 561 rows × 52 columns, UTF-8 |
-| [`data/pcm_cfd_ready_v1_5.csv`](data/pcm_cfd_ready_v1_5.csv) | CFD-ready subset: 241 materials in SI units (K, J/kg, J/(kg·K), W/(m·K), kg/m³, Pa·s, 1/K) |
+| [`data/pcm_ml_ready_v1_6.csv`](data/pcm_ml_ready_v1_6.csv) | Full dataset: 561 rows × 52 columns, UTF-8 |
+| [`data/pcm_cfd_ready_v1_6.csv`](data/pcm_cfd_ready_v1_6.csv) | CFD-ready subset: 313 materials in SI units (K, J/kg, J/(kg·K), W/(m·K), kg/m³, Pa·s, 1/K) |
 | [`data/columns.csv`](data/columns.csv) | Data dictionary for the full dataset (unit, type, description) |
 | [`data/columns_cfd.csv`](data/columns_cfd.csv) | Data dictionary for the CFD subset |
 
@@ -64,9 +64,9 @@ xychart-beta
 %%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2a78d6"}}}}%%
 xychart-beta
     title "Property coverage (% of 561 rows with a value)"
-    x-axis ["Tm", "Latent heat", "Density", "Conductivity", "Specific heat", "InChIKey/SMILES", "Formula descr.", "Cryst. T", "Vol. change", "Solidus/liquidus"]
+    x-axis ["Tm", "Latent heat", "Specific heat", "Density", "Conductivity", "InChIKey/SMILES", "Formula descr.", "Cryst. T", "Vol. change", "Solidus/liquidus"]
     y-axis "Coverage (%)" 0 --> 100
-    bar [100, 100, 63, 60, 53, 20, 23, 18, 17, 8]
+    bar [100, 100, 64, 64, 61, 20, 23, 18, 17, 8]
 ```
 
 Median thermal conductivity by category: organics **0.26**, commercial **0.51**, inorganics **0.61**, eutectics **0.95**, composites **4.3**, metals **82 W/(m·K)**. Conductivity spans more than three orders of magnitude, which is the main design trade-off between PCM classes.
@@ -75,13 +75,13 @@ Median thermal conductivity by category: organics **0.26**, commercial **0.51**,
 
 ## For CFD users
 
-[`data/pcm_cfd_ready_v1_5.csv`](data/pcm_cfd_ready_v1_5.csv) contains every material with at least one value each of specific heat, thermal conductivity and density, converted to SI units for direct use in enthalpy–porosity models.
+[`data/pcm_cfd_ready_v1_6.csv`](data/pcm_cfd_ready_v1_6.csv) contains every material with at least one value each of specific heat, thermal conductivity and density, converted to SI units for direct use in enthalpy–porosity models.
 
 | Tier | Meaning | Materials |
 |---|---|---|
 | **A** | Solid & liquid cp, k, ρ **+** liquid viscosity **+** thermal expansion β — ready for natural-convection (Boussinesq) simulations | 1 (n-octadecane) |
 | **B** | Solid & liquid cp, k, ρ reported separately — ready for conduction-dominated models | 63 |
-| **C** | At least one value of each; a phase-unspecified value is used for both phases | 177 |
+| **C** | At least one value of each property. A phase-unspecified value is used for both phases (177), or a value reported for only one phase is copied to the other (72). The `phase_assumed` column says which. Check these before relying on solid/liquid contrast | 249 |
 
 Additional CFD properties in the full dataset:
 
@@ -149,7 +149,7 @@ Full list with units: [`data/columns.csv`](data/columns.csv). Units are also enc
 import pandas as pd
 from sklearn.model_selection import GroupKFold
 
-df = pd.read_csv("data/pcm_ml_ready_v1_5.csv")
+df = pd.read_csv("data/pcm_ml_ready_v1_6.csv")
 
 # Example: pure compounds and eutectics only, highest-quality rows first
 core = df[df.in_core_set == 1]
@@ -164,7 +164,7 @@ for train, test in GroupKFold(n_splits=5).split(X, y, groups=core.group_id):
     ...
 
 # CFD: tier A/B materials in SI units
-cfd = pd.read_csv("data/pcm_cfd_ready_v1_5.csv")
+cfd = pd.read_csv("data/pcm_cfd_ready_v1_6.csv")
 print(cfd[cfd.tier.isin(["A", "B"])][["name", "T_melt_K", "latent_heat_J_per_kg",
       "rho_solid_kg_per_m3", "rho_liquid_kg_per_m3", "k_solid_W_per_mK", "k_liquid_W_per_mK"]])
 ```
@@ -181,7 +181,7 @@ print(cfd[cfd.tier.isin(["A", "B"])][["name", "T_melt_K", "latent_heat_J_per_kg"
 | Property reference data | Faden et al. 2019 (*Materials* 12, 2974, n-octadecane review); Tasidou et al. 2019 and Chliatzou et al. 2018 (*J. Phys. Chem. Ref. Data*, NIST molten-salt viscosity and conductivity); Bonk & Bauer 2022 (DLR, solar salt); Serrano-López et al. 2013 (molten salts database); Lasfargues et al. 2015; Kraiem et al. 2019 |
 | Melting behaviour | Hirschey et al. 2018; Prabhu et al. 2012; Liu et al. 2024 (*Nanomaterials* 14, 1077); Xie et al. 2017 |
 | Chemical identifiers | PubChem (InChIKey, SMILES, CAS) |
-| Handbook | NIST Chemistry WebBook / CRC Handbook |
+| Handbook | NIST Chemistry WebBook / CRC Handbook. v1.6 adds condensed-phase cp near the melting point for 63 pure compounds from WebBook data and Shomate equations (Chase 1998, NIST-JANAF) |
 | Manufacturer datasheets | Rubitherm, PureTemp, PCM Products (PlusICE), Croda, Axiotherm, Pluss, Phase Change Solutions (BioPCM), Insolcorp, Sasol, Cowa |
 
 Published values for the same material can differ by 10–20 %. Use `sample_weight` or filter on `data_status` when precision matters.
@@ -192,7 +192,7 @@ Published values for the same material can differ by 10–20 %. Use `sample_weig
 
 If you use this dataset, please cite:
 
-> Sathya, C. (2026). *PCM Latent Heat Storage Dataset — ML- and CFD-ready* (v1.5) [Data set]. GitHub. https://github.com/christophersathya-bit/pcm-latent-heat-dataset
+> Sathya, C. (2026). *PCM Latent Heat Storage Dataset — ML- and CFD-ready* (v1.6) [Data set]. GitHub. https://github.com/christophersathya-bit/pcm-latent-heat-dataset
 
 ## Licence
 
