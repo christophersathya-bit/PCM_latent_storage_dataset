@@ -1,55 +1,146 @@
-# PCM Latent Heat Storage Dataset — ML-ready (v1.4)
+# PCM Latent Heat Storage Dataset — ML-ready
 
-Machine-learning-ready dataset of **561 phase change materials (PCMs)** for latent heat thermal energy storage, from −74 °C to 1085 °C.
+![Materials](https://img.shields.io/badge/materials-561-2a78d6) ![Columns](https://img.shields.io/badge/columns-44-2a78d6) ![Temperature range](https://img.shields.io/badge/Tm-%E2%88%9274%20to%201085%20%C2%B0C-eb6834) ![Sources](https://img.shields.io/badge/sources-24-1baf7a) ![Format](https://img.shields.io/badge/format-CSV-555555) ![Version](https://img.shields.io/badge/version-1.4-555555)
 
-Compiled October 2026 by Christopher Sathya.
+A curated, machine-learning-ready dataset of **561 phase change materials (PCMs)** for latent heat thermal energy storage, covering organics, salt hydrates, molten salts, metals, eutectics, composites and commercial products from 10 suppliers. Every row carries its source and a data-quality flag.
 
-## File
+Compiled by **Christopher Sathya**, October 2026.
 
-`data/pcm_ml_ready_v1_4.csv` — one row per material, 44 columns, UTF-8.
+---
 
-## Columns
+## Contents
 
-| Column(s) | Meaning |
+| File | What it is |
 |---|---|
-| `ID`, `Name`, `Category`, `Subclass` | Identifier and classification |
-| `group_id` | Same material or same supplier share a group. Use for GroupKFold splits to avoid leakage between near-duplicates |
-| `sample_weight` | Data-quality weight: 1.0 verified/datasheet/measured, 0.9 manufacturer listing, 0.8 literature/handbook, 0.7 secondary review table |
-| `in_core_set` | 1 = pure compound with a parsed formula, or a eutectic |
-| `is_organic` … `is_commercial` | One-hot category flags |
-| `is_solid_solid` | 1 = solid–solid transition |
-| `latent_is_total_storage` | 1 = supplier value is heat storage capacity over a range (latent + some sensible) |
-| `Tm_C`, `latent_kJkg` | Melting temperature (°C) and latent heat (kJ/kg). Filled for every row |
-| `volumetric_MJm3` | Latent heat × density / 1000 (solid density, else unspecified, else liquid) |
-| `cp_solid_kJkgK`, `cp_liquid_kJkgK`, `cp_unspecified_kJkgK` | Specific heat (kJ/kg·K) for the solid and liquid phase as reported; `_unspecified` = source gives one value without stating the phase |
-| `k_solid_WmK`, `k_liquid_WmK`, `k_unspecified_WmK` | Thermal conductivity (W/m·K), same convention |
-| `rho_solid_kgm3`, `rho_liquid_kgm3`, `rho_unspecified_kgm3` | Density (kg/m³), same convention |
-| `cryst_T_C`, `supercooling_K_from_data` | Crystallization temperature and Tm − cryst_T, where reported |
-| `formula_parsed` … `water_mass_frac` | Descriptors computed from the chemical formula (pure compounds): molar mass, atom counts, halogen/metal atoms, hydrate water count, water mass fraction |
-| `C_chain_len_if_alkane`, `has_COOH_like` | Alkane chain length; carboxylic-acid flag |
-| `Source key`, `Data status` | Source of each value and how it was obtained |
+| [`data/pcm_ml_ready_v1_4.csv`](data/pcm_ml_ready_v1_4.csv) | The dataset: 561 rows × 44 columns, UTF-8 |
+| [`data/columns.csv`](data/columns.csv) | Data dictionary: unit, type and description of every column |
 
-## Coverage
+---
 
-| Category | Rows |
-|---|---|
-| Organic | 58 |
-| Inorganic | 58 |
-| Metallic | 16 |
-| Eutectic | 66 |
-| Composite | 10 |
-| Commercial products (10 suppliers) | 353 |
+## Dataset at a glance
 
-## Notes for use
+```mermaid
+pie showData
+    title Materials by category (n = 561)
+    "Commercial products" : 353
+    "Eutectic mixtures" : 66
+    "Organic" : 58
+    "Inorganic" : 58
+    "Metallic" : 16
+    "Composite" : 10
+```
 
-- Do not fill blank cp, k or density values with zeros.
-- Published values for the same material can differ by 10–20%; use `sample_weight` or filter on `Data status`.
-- Commercial rows have no chemical formula, so formula descriptors are blank for them.
+```mermaid
+xychart-beta
+    title "Number of PCMs per melting-temperature band"
+    x-axis "Melting temperature, Tm (°C)" ["-80/-40", "-40/0", "0/20", "20/40", "40/60", "60/80", "80/100", "100/150", "150/200", "200/300", "300/500", "500/1100"]
+    y-axis "Number of PCMs" 0 --> 130
+    bar [29, 46, 90, 120, 83, 43, 21, 16, 15, 16, 38, 44]
+```
+
+```mermaid
+xychart-beta
+    title "Distribution of latent heat"
+    x-axis "Latent heat (kJ/kg)" ["<100", "100-150", "150-200", "200-250", "250-300", "300-400", ">400"]
+    y-axis "Number of PCMs" 0 --> 200
+    bar [21, 92, 150, 178, 60, 44, 16]
+```
+
+```mermaid
+xychart-beta
+    title "Median latent heat by category"
+    x-axis ["Organic", "Commercial", "Eutectic", "Inorganic", "Composite", "Metallic"]
+    y-axis "Median latent heat (kJ/kg)" 0 --> 250
+    bar [213, 206, 180, 175, 136, 70]
+```
+
+```mermaid
+xychart-beta
+    title "Property coverage (% of 561 rows with a value)"
+    x-axis ["Tm", "Latent heat", "Density", "Conductivity", "Specific heat", "Formula descriptors", "Cryst. temperature"]
+    y-axis "Coverage (%)" 0 --> 100
+    bar [100, 100, 63, 60, 53, 23, 18]
+```
+
+Median thermal conductivity by category: organics **0.26**, commercial **0.51**, inorganics **0.61**, eutectics **0.95**, composites **4.3**, metals **82 W/(m·K)**. Conductivity spans more than three orders of magnitude, which is the main design trade-off between PCM classes.
+
+---
+
+## Columns and units
+
+Full list with units: [`data/columns.csv`](data/columns.csv). Units are also encoded in the column names (for example `_C` = °C, `_kJkg` = kJ/kg, `_WmK` = W/(m·K)).
+
+| Group | Columns | Unit |
+|---|---|---|
+| Identity | `id`, `name`, `category`, `subclass` | – |
+| Splitting & weighting | `group_id` | – (group label) |
+| | `sample_weight` | dimensionless, 0–1 (data quality) |
+| | `in_core_set` | 0/1 |
+| Flags | `is_organic`, `is_inorganic`, `is_metallic`, `is_eutectic`, `is_composite`, `is_commercial`, `is_solid_solid`, `latent_is_total_storage`, `has_COOH_like` | 0/1 |
+| Phase change | `Tm_C`, `cryst_T_C` | °C |
+| | `supercooling_K_from_data` | K |
+| | `latent_kJkg` | kJ/kg |
+| | `volumetric_MJm3` | MJ/m³ |
+| Specific heat | `cp_solid_kJkgK`, `cp_liquid_kJkgK`, `cp_unspecified_kJkgK` | kJ/(kg·K) |
+| Thermal conductivity | `k_solid_WmK`, `k_liquid_WmK`, `k_unspecified_WmK` | W/(m·K) |
+| Density | `rho_solid_kgm3`, `rho_liquid_kgm3`, `rho_unspecified_kgm3` | kg/m³ |
+| Formula descriptors | `molar_mass_gmol` | g/mol |
+| | `n_atoms`, `n_C`, `n_H`, `n_O`, `n_N`, `n_halogen`, `n_metal_atoms`, `hydrate_water_n`, `C_chain_len_if_alkane` | count per formula unit |
+| | `water_mass_frac` | dimensionless, 0–1 |
+| Provenance | `formula_parsed`, `source_key`, `data_status` | – |
+
+**Notes on specific columns:**
+
+- `_solid` / `_liquid` = value for that phase as reported. `_unspecified` = the source gives one value without stating the phase (e.g. PlusICE, Axiotherm). Blank = not reported. **Do not fill blanks with zeros.**
+- `sample_weight`: 1.0 verified / datasheet / measured · 0.9 manufacturer listing · 0.8 literature / handbook · 0.7 secondary review table.
+- `latent_is_total_storage = 1`: the supplier reports heat storage capacity over a temperature range (latent + some sensible heat), not pure latent heat.
+- `supercooling_K_from_data` = `Tm_C − cryst_T_C`. Small negative values occur where a datasheet prints a freezing point above the melting point; they are kept as published.
+
+---
+
+## Quick start
+
+```python
+import pandas as pd
+from sklearn.model_selection import GroupKFold
+
+df = pd.read_csv("data/pcm_ml_ready_v1_4.csv")
+
+# Example: pure compounds and eutectics only, highest-quality rows first
+core = df[df.in_core_set == 1]
+
+features = ["molar_mass_gmol", "n_atoms", "n_C", "n_H", "n_O", "n_N",
+            "n_halogen", "n_metal_atoms", "hydrate_water_n", "water_mass_frac",
+            "is_organic", "is_inorganic", "is_metallic", "has_COOH_like"]
+X, y = core[features].fillna(0), core["Tm_C"]
+
+# Split by group_id so the same material never appears in train and test
+for train, test in GroupKFold(n_splits=5).split(X, y, groups=core.group_id):
+    ...
+```
+
+---
 
 ## Sources
 
-Zalba 2003, Sharma 2009, Kenisarin 2010, Abhat 1983, Xie 2017, Hirschey 2018, Mao 2025, Müller et al. 2020, NIST WebBook/CRC, University of Lleida/CORA open datasets (CC BY 4.0: [10.34810/data1218](https://doi.org/10.34810/data1218), [10.34810/data2156](https://doi.org/10.34810/data2156), [10.34810/data1822](https://doi.org/10.34810/data1822)), and manufacturer datasheets (Rubitherm, PureTemp, PCM Products, Croda, Axiotherm, Pluss, Phase Change Solutions, Insolcorp, Sasol, Cowa).
+| Type | Sources |
+|---|---|
+| Reviews | Zalba et al. 2003; Sharma et al. 2009; Kenisarin 2010; Abhat 1983; Xie et al. 2017; Hirschey et al. 2018 (ORNL); Mao et al. 2025 |
+| Measured | Müller et al. 2020, *Materials* 13, 4486 (consistent DSC method) |
+| Open datasets (CC BY 4.0) | University of Lleida / CORA: [10.34810/data1218](https://doi.org/10.34810/data1218), [10.34810/data2156](https://doi.org/10.34810/data2156), [10.34810/data1822](https://doi.org/10.34810/data1822) |
+| Handbook | NIST Chemistry WebBook / CRC Handbook |
+| Manufacturer datasheets | Rubitherm, PureTemp, PCM Products (PlusICE), Croda, Axiotherm, Pluss, Phase Change Solutions (BioPCM), Insolcorp, Sasol, Cowa |
+
+Published values for the same material can differ by 10–20 %. Use `sample_weight` or filter on `data_status` when precision matters.
+
+---
+
+## Citation
+
+If you use this dataset, please cite:
+
+> Sathya, C. (2026). *PCM Latent Heat Storage Dataset — ML-ready* (v1.4) [Data set]. GitHub. https://github.com/christophersathya-bit/pcm-latent-heat-dataset
 
 ## Licence
 
-Private repository; no licence chosen yet. If shared, the Lleida/CORA rows must be attributed (CC BY 4.0).
+No licence has been chosen yet. Rows from the University of Lleida / CORA datasets are CC BY 4.0 and must be attributed. Supplier values are cited from public datasheets and remain the property of their publishers.
