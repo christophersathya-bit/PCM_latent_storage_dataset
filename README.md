@@ -1,8 +1,8 @@
 # PCM Latent Heat Storage Dataset — ML- and CFD-ready
 
-![Materials](https://img.shields.io/badge/materials-779-2a78d6) ![Columns](https://img.shields.io/badge/columns-52-blue) ![CFD-ready](https://img.shields.io/badge/CFD--ready-314-eb6834) ![Sources](https://img.shields.io/badge/sources-36-1baf7a) ![Format](https://img.shields.io/badge/format-CSV-555555) ![Version](https://img.shields.io/badge/version-1.7-555555)
+![Materials](https://img.shields.io/badge/materials-766-2a78d6) ![Columns](https://img.shields.io/badge/columns-52-blue) ![CFD-ready](https://img.shields.io/badge/CFD--ready-302-eb6834) ![Sources](https://img.shields.io/badge/sources-36-1baf7a) ![Format](https://img.shields.io/badge/format-CSV-555555) ![Version](https://img.shields.io/badge/version-1.7-555555)
 
-A curated, machine-learning-ready dataset of **779 phase change materials (PCMs)** plus a separate table of **197 composite PCMs** for latent heat thermal energy storage, spanning **−74 °C to 1085 °C** and covering organics, salt hydrates, molten salts, metals, eutectics, composites and commercial products from 16 suppliers. Every row carries its source and a data-quality flag. Built for **machine learning**, **CFD simulation** (enthalpy–porosity models in Fluent, COMSOL, OpenFOAM) and **chemistry / materials screening**.
+A curated, machine-learning-ready dataset of **766 solid–liquid phase change materials (PCMs)** plus a separate table of **197 composite PCMs** for latent heat thermal energy storage, spanning **−74 °C to 1085 °C** and covering organics, salt hydrates, molten salts, metals, eutectics, composites and commercial products from 16 suppliers. Every row carries its source and a data-quality flag. **Solid–liquid PCMs only:** solid–solid PCMs (e.g. pentaerythritol, PlusICE X series) are excluded. Built for **machine learning**, **CFD simulation** (enthalpy–porosity models in Fluent, COMSOL, OpenFOAM) and **chemistry / materials screening**.
 
 Compiled by **Christopher Sathya**, October 2026.
 
@@ -12,8 +12,8 @@ Compiled by **Christopher Sathya**, October 2026.
 
 | File | What it is |
 |---|---|
-| [`data/pcm_ml_ready_v1_7.csv`](data/pcm_ml_ready_v1_7.csv) | Full dataset: 779 rows × 52 columns, UTF-8 |
-| [`data/pcm_cfd_ready_v1_7.csv`](data/pcm_cfd_ready_v1_7.csv) | CFD-ready subset: 314 materials in SI units (K, J/kg, J/(kg·K), W/(m·K), kg/m³, Pa·s, 1/K) |
+| [`data/pcm_ml_ready_v1_7.csv`](data/pcm_ml_ready_v1_7.csv) | Full dataset: 766 rows × 52 columns, UTF-8 |
+| [`data/pcm_cfd_ready_v1_7.csv`](data/pcm_cfd_ready_v1_7.csv) | CFD-ready subset: 302 materials in SI units (K, J/kg, J/(kg·K), W/(m·K), kg/m³, Pa·s, 1/K) |
 | [`data/columns.csv`](data/columns.csv) | Data dictionary for the full dataset (unit, type, description) |
 | [`data/columns_cfd.csv`](data/columns_cfd.csv) | Data dictionary for the CFD subset |
 | [`data/pcm_composites_v1_7.csv`](data/pcm_composites_v1_7.csv) | Composite PCMs: 197 rows with base PCM, support/shell, filler, PCM loading, Tm, latent heat, conductivity, nucleating agent and supercooling |
@@ -37,7 +37,7 @@ Compiled by **Christopher Sathya**, October 2026.
 
 ![Solid and liquid property values](images/solid_liquid_coverage.svg)
 
-Median thermal conductivity by category: organics **0.21**, commercial **0.50**, inorganics **0.54**, eutectics **0.92**, composites **4.3**, metals **82 W/(m·K)**. Conductivity spans more than three orders of magnitude, which is the main design trade-off between PCM classes.
+Median thermal conductivity by category: organics **0.21**, commercial **0.52**, inorganics **0.54**, eutectics **0.92**, composites **4.3**, metals **82 W/(m·K)**. Conductivity spans more than three orders of magnitude, which is the main design trade-off between PCM classes.
 
 ---
 
@@ -49,7 +49,7 @@ Median thermal conductivity by category: organics **0.21**, commercial **0.50**,
 |---|---|---|
 | **A** | Solid & liquid cp, k, ρ **+** liquid viscosity **+** thermal expansion β — ready for natural-convection (Boussinesq) simulations | 1 (n-octadecane) |
 | **B** | Solid & liquid cp, k, ρ reported separately — ready for conduction-dominated models | 64 |
-| **C** | At least one value of each property. A phase-unspecified value is used for both phases (177), or a value reported for only one phase is copied to the other (72). The `phase_assumed` column says which. Check these before relying on solid/liquid contrast | 249 |
+| **C** | At least one value of each property. A phase-unspecified value is used for both phases (165), or a value reported for only one phase is copied to the other (72). The `phase_assumed` column says which. Check these before relying on solid/liquid contrast | 237 |
 
 Additional CFD properties in the full dataset:
 
@@ -73,8 +73,8 @@ Values are copied from review tables (`data_status` = secondary review table). T
 
 ## For chemistry and materials users
 
-- **InChIKey and SMILES** (from PubChem) for 115 pure compounds, plus **CAS numbers** in the full workbook.
-- Chemical formula, molar mass, atom counts, hydrate water count and water mass fraction for 135 compounds.
+- **InChIKey and SMILES** (from PubChem) for 114 pure compounds, plus **CAS numbers** in the full workbook.
+- Chemical formula, molar mass, atom counts, hydrate water count and water mass fraction for 134 compounds.
 - Eutectic compositions (wt% or mol%) in the `name` / subclass fields.
 - **Melting behaviour** where a source states it explicitly (e.g. Na₂SO₄·10H₂O incongruent; sodium acetate trihydrate incongruent if overheated) and literature supercooling for selected salt hydrates.
 - Several materials appear with values from more than one source, so the spread of published data can be examined directly.
@@ -91,7 +91,7 @@ Full list with units: [`data/columns.csv`](data/columns.csv). Units are also enc
 | Splitting & weighting | `group_id` | – (group label) |
 | | `sample_weight` | dimensionless, 0–1 (data quality) |
 | | `in_core_set` | 0/1 |
-| Flags | `is_organic`, `is_inorganic`, `is_metallic`, `is_eutectic`, `is_composite`, `is_commercial`, `is_solid_solid`, `latent_is_total_storage`, `has_COOH_like` | 0/1 |
+| Flags | `is_organic`, `is_inorganic`, `is_metallic`, `is_eutectic`, `is_composite`, `is_commercial`, `is_solid_solid` (all 0), `latent_is_total_storage`, `has_COOH_like` | 0/1 |
 | Phase change | `Tm_C`, `cryst_T_C` | °C |
 | | `supercooling_K_from_data` | K |
 | | `T_melt_start_C`, `T_melt_end_C` | °C |
