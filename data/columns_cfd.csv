@@ -2,7 +2,7 @@ column,unit,type,description
 id,-,text,Row id (matches the ML dataset)
 name,-,text,Material or product
 category,-,text,PCM category
-tier,-,text,"A = solid & liquid cp, k, ρ + liquid viscosity + β (natural-convection ready); B = solid & liquid cp, k, ρ (conduction-ready); C = at least one value of each (phase-unspecified values used for both phases)"
+tier,-,text,"A = solid & liquid cp, k, ρ + liquid viscosity + β (natural-convection ready); B = solid & liquid cp, k, ρ (conduction-ready); C = at least one value of each (phase-unspecified value used for both phases, or a one-phase value copied to the other phase; see phase_assumed)"
 T_melt_K,K,number,Melting temperature
 T_solidus_K,K,number,Solidus / melting start (where known)
 T_liquidus_K,K,number,Liquidus / melting end (where known)
@@ -15,7 +15,7 @@ rho_solid_kg_per_m3,kg/m³,number,"Density, solid"
 rho_liquid_kg_per_m3,kg/m³,number,"Density, liquid"
 mu_liquid_Pa_s,Pa·s,number,Liquid dynamic viscosity
 beta_liquid_1_per_K,1/K,number,Liquid thermal expansion coefficient
-phase_assumed,-,text,Whether solid/liquid values are as reported or a phase-unspecified value was used for both
+phase_assumed,-,text,"'solid/liquid as reported', 'unspecified value used for both phases', or 'one-phase value copied to other phase: <property>_<phase>←<phase>' listing each copied value"
 latent_is_total_storage,0/1,flag,1 = heat storage capacity over a range (latent + some sensible)
 source_key,-,text,Main source
 extra_property_sources,-,text,Sources of added viscosity / β / identifiers
