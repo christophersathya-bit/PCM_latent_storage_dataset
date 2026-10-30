@@ -1,0 +1,24 @@
+column,unit,type,description
+id,-,text,Row identifier (CPC-xxxx)
+name,-,text,Base PCM / support or shell
+composite_type,-,text,"Silica-supported (paraffin, fatty acid/alcohol, PEG, salt hydrate, molten salt), carbon-filled, thermally conductive form-stable, microencapsulated, or eutectic salt hydrate composite"
+base_pcm,-,text,The phase change material inside the composite
+support_or_shell,-,text,Porous support / matrix or capsule shell material
+additive_filler,-,text,Extra filler (e.g. nano-Al2O3) where reported
+preparation_method,-,text,"Preparation route (melt/vacuum/solution impregnation, sol-gel, in-situ polymerisation, ...)"
+pcm_loading_wt_pct,wt%,number,Mass fraction of PCM in the composite
+Tm_C,°C,number,Melting temperature of the composite (midpoint if a range was reported)
+latent_kJkg,kJ/kg,number,Melting latent heat of the composite (J/g = kJ/kg)
+k_WmK,W/(m·K),number,Thermal conductivity of the composite (phase not stated)
+k_enhancement_pct,%,number,Conductivity increase relative to the pure PCM as reported
+base_pcm_Tm_C,°C,number,Melting temperature of the pure PCM as reported in the same table
+base_pcm_latent_kJkg,kJ/kg,number,Latent heat of the pure PCM as reported in the same table
+nucleating_agent,-,text,Nucleating agent used to reduce supercooling
+nucleator_wt_pct,wt%,number,Nucleating agent addition
+supercooling_K,K,number,Supercooling degree reported for the composite
+particle_size_um,µm,text,Capsule / particle size range (microencapsulated PCMs)
+source_key,-,text,Key of the review the row was taken from
+source_reference,-,text,Full reference of that review
+source_doi,-,text,DOI link of that review
+review_ref,-,text,Reference number inside the review (points to the original paper)
+notes,-,text,Original paper and remarks
