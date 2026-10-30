@@ -1,8 +1,8 @@
 # PCM Latent Heat Storage Dataset — ML-ready
 
-![Materials](https://img.shields.io/badge/materials-561-2a78d6) ![Columns](https://img.shields.io/badge/columns-44-blue) ![Temperature range](https://img.shields.io/badge/Tm_range---74_to_1085_%C2%B0C-orange) ![Sources](https://img.shields.io/badge/sources-24-1baf7a) ![Format](https://img.shields.io/badge/format-CSV-555555) ![Version](https://img.shields.io/badge/version-1.4-555555)
+![Materials](https://img.shields.io/badge/materials-561-2a78d6) ![Columns](https://img.shields.io/badge/columns-44-blue) ![Sources](https://img.shields.io/badge/sources-24-1baf7a) ![Format](https://img.shields.io/badge/format-CSV-555555) ![Version](https://img.shields.io/badge/version-1.4-555555)
 
-A curated, machine-learning-ready dataset of **561 phase change materials (PCMs)** for latent heat thermal energy storage, covering organics, salt hydrates, molten salts, metals, eutectics, composites and commercial products from 10 suppliers. Every row carries its source and a data-quality flag.
+A curated, machine-learning-ready dataset of **561 phase change materials (PCMs)** for latent heat thermal energy storage, spanning **−74 °C to 1085 °C** and covering organics, salt hydrates, molten salts, metals, eutectics, composites and commercial products from 10 suppliers. Every row carries its source and a data-quality flag.
 
 Compiled by **Christopher Sathya**, October 2026.
 
