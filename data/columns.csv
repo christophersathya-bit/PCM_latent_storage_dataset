@@ -1,0 +1,45 @@
+column,unit,type,description
+id,-,text,Unique row identifier (PCM-0001 …)
+name,-,text,Material or product name
+category,-,text,"Organic, Inorganic, Metallic, Eutectic, Composite or Commercial"
+subclass,-,text,"Finer class (e.g. Paraffin (n-alkane), Salt hydrate, Molten salt)"
+group_id,-,text,Same material or same supplier share a group; use with GroupKFold to avoid leakage
+sample_weight,dimensionless (0–1),number,"Data-quality weight: 1.0 verified/datasheet/measured, 0.9 manufacturer listing, 0.8 literature/handbook, 0.7 secondary review table"
+in_core_set,0/1,flag,1 = pure compound with a parsed formula or a eutectic
+is_organic,0/1,flag,Category flag
+is_inorganic,0/1,flag,Category flag
+is_metallic,0/1,flag,Category flag
+is_eutectic,0/1,flag,Category flag
+is_composite,0/1,flag,Category flag
+is_commercial,0/1,flag,Category flag
+is_solid_solid,0/1,flag,1 = solid–solid phase transition
+latent_is_total_storage,0/1,flag,1 = supplier reports heat storage capacity over a temperature range (latent + some sensible)
+Tm_C,°C,number,Melting / phase-change temperature
+latent_kJkg,kJ/kg,number,Latent heat of fusion (or heat storage capacity where flagged)
+volumetric_MJm3,MJ/m³,number,"Volumetric latent heat = latent_kJkg × density / 1000 (solid, else unspecified, else liquid density)"
+cp_solid_kJkgK,kJ/(kg·K),number,Specific heat capacity of the solid
+cp_liquid_kJkgK,kJ/(kg·K),number,Specific heat capacity of the liquid
+cp_unspecified_kJkgK,kJ/(kg·K),number,Specific heat when the source does not state the phase
+k_solid_WmK,W/(m·K),number,Thermal conductivity of the solid
+k_liquid_WmK,W/(m·K),number,Thermal conductivity of the liquid
+k_unspecified_WmK,W/(m·K),number,Thermal conductivity when the source does not state the phase
+rho_solid_kgm3,kg/m³,number,Density of the solid
+rho_liquid_kgm3,kg/m³,number,Density of the liquid
+rho_unspecified_kgm3,kg/m³,number,Density when the source does not state the phase
+cryst_T_C,°C,number,Crystallization / congealing / freezing temperature where reported
+supercooling_K_from_data,K,number,Tm_C − cryst_T_C. Negative values occur where a datasheet prints a freezing point above the melting point
+formula_parsed,-,text,Chemical formula used for the descriptors (pure compounds only)
+molar_mass_gmol,g/mol,number,Molar mass from the formula (including hydrate water)
+n_atoms,count,integer,Atoms per formula unit
+n_C,count,integer,Carbon atoms per formula unit
+n_H,count,integer,Hydrogen atoms per formula unit
+n_O,count,integer,Oxygen atoms per formula unit
+n_N,count,integer,Nitrogen atoms per formula unit
+n_halogen,count,integer,"F + Cl + Br + I atoms per formula unit"
+n_metal_atoms,count,integer,Metal atoms per formula unit
+hydrate_water_n,count,integer,Water molecules of hydration per formula unit
+water_mass_frac,dimensionless (0–1),number,Mass fraction of hydrate water
+C_chain_len_if_alkane,count,integer,Carbon chain length for n-alkanes
+has_COOH_like,0/1,flag,1 = carboxylic acid (fatty / dicarboxylic / aromatic acid)
+source_key,-,text,Short key of the source (full reference in the README)
+data_status,-,text,How the value was obtained and whether it was verified
