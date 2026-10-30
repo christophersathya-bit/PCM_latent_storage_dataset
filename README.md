@@ -1,6 +1,6 @@
 # PCM Latent Heat Storage Dataset — ML-ready
 
-![Materials](https://img.shields.io/badge/materials-561-2a78d6) ![Columns](https://img.shields.io/badge/columns-44-2a78d6) ![Temperature range](https://img.shields.io/badge/Tm-%E2%88%9274%20to%201085%20%C2%B0C-eb6834) ![Sources](https://img.shields.io/badge/sources-24-1baf7a) ![Format](https://img.shields.io/badge/format-CSV-555555) ![Version](https://img.shields.io/badge/version-1.4-555555)
+![Materials](https://img.shields.io/badge/materials-561-2a78d6) ![Columns](https://img.shields.io/badge/columns-44-blue) ![Temperature range](https://img.shields.io/badge/Tm_range---74_to_1085_%C2%B0C-orange) ![Sources](https://img.shields.io/badge/sources-24-1baf7a) ![Format](https://img.shields.io/badge/format-CSV-555555) ![Version](https://img.shields.io/badge/version-1.4-555555)
 
 A curated, machine-learning-ready dataset of **561 phase change materials (PCMs)** for latent heat thermal energy storage, covering organics, salt hydrates, molten salts, metals, eutectics, composites and commercial products from 10 suppliers. Every row carries its source and a data-quality flag.
 
@@ -20,6 +20,7 @@ Compiled by **Christopher Sathya**, October 2026.
 ## Dataset at a glance
 
 ```mermaid
+%%{init: {"theme": "base", "themeVariables": {"pie1": "#008300", "pie2": "#eda100", "pie3": "#2a78d6", "pie4": "#eb6834", "pie5": "#1baf7a", "pie6": "#e87ba4", "pieStrokeColor": "#ffffff", "pieOuterStrokeColor": "#ffffff", "pieSectionTextColor": "#ffffff", "pieTitleTextSize": "18px"}}}%%
 pie showData
     title Materials by category (n = 561)
     "Commercial products" : 353
@@ -31,6 +32,7 @@ pie showData
 ```
 
 ```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2a78d6"}}}}%%
 xychart-beta
     title "Number of PCMs per melting-temperature band"
     x-axis "Melting temperature, Tm (°C)" ["-80/-40", "-40/0", "0/20", "20/40", "40/60", "60/80", "80/100", "100/150", "150/200", "200/300", "300/500", "500/1100"]
@@ -39,14 +41,16 @@ xychart-beta
 ```
 
 ```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2a78d6"}}}}%%
 xychart-beta
     title "Distribution of latent heat"
-    x-axis "Latent heat (kJ/kg)" ["<100", "100-150", "150-200", "200-250", "250-300", "300-400", ">400"]
+    x-axis "Latent heat (kJ/kg)" ["0-100", "100-150", "150-200", "200-250", "250-300", "300-400", "400+"]
     y-axis "Number of PCMs" 0 --> 200
     bar [21, 92, 150, 178, 60, 44, 16]
 ```
 
 ```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2a78d6"}}}}%%
 xychart-beta
     title "Median latent heat by category"
     x-axis ["Organic", "Commercial", "Eutectic", "Inorganic", "Composite", "Metallic"]
@@ -55,6 +59,7 @@ xychart-beta
 ```
 
 ```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2a78d6"}}}}%%
 xychart-beta
     title "Property coverage (% of 561 rows with a value)"
     x-axis ["Tm", "Latent heat", "Density", "Conductivity", "Specific heat", "Formula descriptors", "Cryst. temperature"]
