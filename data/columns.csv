@@ -28,6 +28,14 @@ rho_liquid_kgm3,kg/m³,number,Density of the liquid
 rho_unspecified_kgm3,kg/m³,number,Density when the source does not state the phase
 cryst_T_C,°C,number,Crystallization / congealing / freezing temperature where reported
 supercooling_K_from_data,K,number,Tm_C − cryst_T_C. Negative values occur where a datasheet prints a freezing point above the melting point
+mu_liquid_mPas,mPa·s,number,"Liquid dynamic viscosity near the melting point (value at the temperature given in the main dataset notes). Sources: NIST reference correlations (salts), Faden 2019 (n-octadecane), DLR 2022 (solar salt), Kraiem 2019 (Rubitherm)"
+beta_liquid_1K,1/K,number,"Volumetric thermal expansion coefficient of the liquid, β = −(1/ρ)(dρ/dT), at the melting point; used for the Boussinesq buoyancy term"
+T_melt_start_C,°C,number,"Start of melting (solidus, or DSC onset / lower end of the manufacturer melting range)"
+T_melt_end_C,°C,number,"End of melting (liquidus, or DSC peak / upper end of the manufacturer melting range)"
+vol_change_melting_pct,%,number,Volume change on melting = (ρ_solid/ρ_liquid − 1)×100. Negative for water-based PCMs and gallium (they expand on freezing)
+melting_behaviour,-,text,"Congruent / incongruent / phase separation, only where a source states it explicitly"
+inchikey,-,text,Standard InChIKey from PubChem (pure compounds)
+smiles,-,text,SMILES from PubChem (pure compounds)
 formula_parsed,-,text,Chemical formula used for the descriptors (pure compounds only)
 molar_mass_gmol,g/mol,number,Molar mass from the formula (including hydrate water)
 n_atoms,count,integer,Atoms per formula unit
@@ -35,7 +43,7 @@ n_C,count,integer,Carbon atoms per formula unit
 n_H,count,integer,Hydrogen atoms per formula unit
 n_O,count,integer,Oxygen atoms per formula unit
 n_N,count,integer,Nitrogen atoms per formula unit
-n_halogen,count,integer,"F + Cl + Br + I atoms per formula unit"
+n_halogen,count,integer,F + Cl + Br + I atoms per formula unit
 n_metal_atoms,count,integer,Metal atoms per formula unit
 hydrate_water_n,count,integer,Water molecules of hydration per formula unit
 water_mass_frac,dimensionless (0–1),number,Mass fraction of hydrate water

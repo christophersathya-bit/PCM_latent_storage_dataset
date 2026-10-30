@@ -1,0 +1,22 @@
+column,unit,type,description
+id,-,text,Row id (matches the ML dataset)
+name,-,text,Material or product
+category,-,text,PCM category
+tier,-,text,"A = solid & liquid cp, k, ρ + liquid viscosity + β (natural-convection ready); B = solid & liquid cp, k, ρ (conduction-ready); C = at least one value of each (phase-unspecified values used for both phases)"
+T_melt_K,K,number,Melting temperature
+T_solidus_K,K,number,Solidus / melting start (where known)
+T_liquidus_K,K,number,Liquidus / melting end (where known)
+latent_heat_J_per_kg,J/kg,number,Latent heat
+cp_solid_J_per_kgK,J/(kg·K),number,"Specific heat, solid"
+cp_liquid_J_per_kgK,J/(kg·K),number,"Specific heat, liquid"
+k_solid_W_per_mK,W/(m·K),number,"Thermal conductivity, solid"
+k_liquid_W_per_mK,W/(m·K),number,"Thermal conductivity, liquid"
+rho_solid_kg_per_m3,kg/m³,number,"Density, solid"
+rho_liquid_kg_per_m3,kg/m³,number,"Density, liquid"
+mu_liquid_Pa_s,Pa·s,number,Liquid dynamic viscosity
+beta_liquid_1_per_K,1/K,number,Liquid thermal expansion coefficient
+phase_assumed,-,text,Whether solid/liquid values are as reported or a phase-unspecified value was used for both
+latent_is_total_storage,0/1,flag,1 = heat storage capacity over a range (latent + some sensible)
+source_key,-,text,Main source
+extra_property_sources,-,text,Sources of added viscosity / β / identifiers
+data_status,-,text,Verification status
