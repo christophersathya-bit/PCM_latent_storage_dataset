@@ -28,16 +28,16 @@ z
 <g id="line2d_1">
 <path d="M 91.1 241.4 
 L 91.1 41.8 
-" clip-path="url(#p1fa1eb9749)" style="fill: none; stroke: #e6e9ee; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#paf597ea7ce)" style="fill: none; stroke: #e6e9ee; stroke-width: 0.8; stroke-linecap: square"/>
 </g>
 <g id="line2d_2">
 <defs>
-<path id="mac401e1198" d="M 0 0 
+<path id="m21a5b14737" d="M 0 0 
 L 0 3.5 
 " style="stroke: #5b6577; stroke-width: 0.8"/>
 </defs>
 <g>
-<use xlink:href="#mac401e1198" x="91.1" y="241.4" style="fill: #5b6577; stroke: #5b6577; stroke-width: 0.8"/>
+<use xlink:href="#m21a5b14737" x="91.1" y="241.4" style="fill: #5b6577; stroke: #5b6577; stroke-width: 0.8"/>
 </g>
 </g>
 <g id="text_1">
@@ -46,77 +46,77 @@ L 0 3.5
 </g>
 <g id="xtick_2">
 <g id="line2d_3">
-<path d="M 166.1 241.4 
-L 166.1 41.8 
-" clip-path="url(#p1fa1eb9749)" style="fill: none; stroke: #e6e9ee; stroke-width: 0.8; stroke-linecap: square"/>
+<path d="M 166.3 241.4 
+L 166.3 41.8 
+" clip-path="url(#paf597ea7ce)" style="fill: none; stroke: #e6e9ee; stroke-width: 0.8; stroke-linecap: square"/>
 </g>
 <g id="line2d_4">
 <g>
-<use xlink:href="#mac401e1198" x="166.1" y="241.4" style="fill: #5b6577; stroke: #5b6577; stroke-width: 0.8"/>
+<use xlink:href="#m21a5b14737" x="166.3" y="241.4" style="fill: #5b6577; stroke: #5b6577; stroke-width: 0.8"/>
 </g>
 </g>
 <g id="text_2">
-<text style="font-size: 11px; font-family: 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6577" x="166.1" y="256.7" transform="rotate(-0 166.1 256.7)">100</text>
+<text style="font-size: 11px; font-family: 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6577" x="166.3" y="256.7" transform="rotate(-0 166.3 256.7)">100</text>
 </g>
 </g>
 <g id="xtick_3">
 <g id="line2d_5">
-<path d="M 241.1 241.4 
-L 241.1 41.8 
-" clip-path="url(#p1fa1eb9749)" style="fill: none; stroke: #e6e9ee; stroke-width: 0.8; stroke-linecap: square"/>
+<path d="M 241.5 241.4 
+L 241.5 41.8 
+" clip-path="url(#paf597ea7ce)" style="fill: none; stroke: #e6e9ee; stroke-width: 0.8; stroke-linecap: square"/>
 </g>
 <g id="line2d_6">
 <g>
-<use xlink:href="#mac401e1198" x="241.1" y="241.4" style="fill: #5b6577; stroke: #5b6577; stroke-width: 0.8"/>
+<use xlink:href="#m21a5b14737" x="241.5" y="241.4" style="fill: #5b6577; stroke: #5b6577; stroke-width: 0.8"/>
 </g>
 </g>
 <g id="text_3">
-<text style="font-size: 11px; font-family: 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6577" x="241.1" y="256.7" transform="rotate(-0 241.1 256.7)">200</text>
+<text style="font-size: 11px; font-family: 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6577" x="241.5" y="256.7" transform="rotate(-0 241.5 256.7)">200</text>
 </g>
 </g>
 <g id="xtick_4">
 <g id="line2d_7">
-<path d="M 316.1 241.4 
-L 316.1 41.8 
-" clip-path="url(#p1fa1eb9749)" style="fill: none; stroke: #e6e9ee; stroke-width: 0.8; stroke-linecap: square"/>
+<path d="M 316.6 241.4 
+L 316.6 41.8 
+" clip-path="url(#paf597ea7ce)" style="fill: none; stroke: #e6e9ee; stroke-width: 0.8; stroke-linecap: square"/>
 </g>
 <g id="line2d_8">
 <g>
-<use xlink:href="#mac401e1198" x="316.1" y="241.4" style="fill: #5b6577; stroke: #5b6577; stroke-width: 0.8"/>
+<use xlink:href="#m21a5b14737" x="316.6" y="241.4" style="fill: #5b6577; stroke: #5b6577; stroke-width: 0.8"/>
 </g>
 </g>
 <g id="text_4">
-<text style="font-size: 11px; font-family: 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6577" x="316.1" y="256.7" transform="rotate(-0 316.1 256.7)">300</text>
+<text style="font-size: 11px; font-family: 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6577" x="316.6" y="256.7" transform="rotate(-0 316.6 256.7)">300</text>
 </g>
 </g>
 <g id="xtick_5">
 <g id="line2d_9">
-<path d="M 391.1 241.4 
-L 391.1 41.8 
-" clip-path="url(#p1fa1eb9749)" style="fill: none; stroke: #e6e9ee; stroke-width: 0.8; stroke-linecap: square"/>
+<path d="M 391.8 241.4 
+L 391.8 41.8 
+" clip-path="url(#paf597ea7ce)" style="fill: none; stroke: #e6e9ee; stroke-width: 0.8; stroke-linecap: square"/>
 </g>
 <g id="line2d_10">
 <g>
-<use xlink:href="#mac401e1198" x="391.1" y="241.4" style="fill: #5b6577; stroke: #5b6577; stroke-width: 0.8"/>
+<use xlink:href="#m21a5b14737" x="391.8" y="241.4" style="fill: #5b6577; stroke: #5b6577; stroke-width: 0.8"/>
 </g>
 </g>
 <g id="text_5">
-<text style="font-size: 11px; font-family: 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6577" x="391.1" y="256.7" transform="rotate(-0 391.1 256.7)">400</text>
+<text style="font-size: 11px; font-family: 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6577" x="391.8" y="256.7" transform="rotate(-0 391.8 256.7)">400</text>
 </g>
 </g>
 <g id="xtick_6">
 <g id="line2d_11">
-<path d="M 466.1 241.4 
-L 466.1 41.8 
-" clip-path="url(#p1fa1eb9749)" style="fill: none; stroke: #e6e9ee; stroke-width: 0.8; stroke-linecap: square"/>
+<path d="M 467.0 241.4 
+L 467.0 41.8 
+" clip-path="url(#paf597ea7ce)" style="fill: none; stroke: #e6e9ee; stroke-width: 0.8; stroke-linecap: square"/>
 </g>
 <g id="line2d_12">
 <g>
-<use xlink:href="#mac401e1198" x="466.1" y="241.4" style="fill: #5b6577; stroke: #5b6577; stroke-width: 0.8"/>
+<use xlink:href="#m21a5b14737" x="467.0" y="241.4" style="fill: #5b6577; stroke: #5b6577; stroke-width: 0.8"/>
 </g>
 </g>
 <g id="text_6">
-<text style="font-size: 11px; font-family: 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6577" x="466.1" y="256.7" transform="rotate(-0 466.1 256.7)">500</text>
+<text style="font-size: 11px; font-family: 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6577" x="467.0" y="256.7" transform="rotate(-0 467.0 256.7)">500</text>
 </g>
 </g>
 <g id="text_7">
@@ -155,23 +155,23 @@ L 439.9 232.3
 L 439.9 202.1 
 L 91.1 202.1 
 z
-" clip-path="url(#p1fa1eb9749)" style="fill: #d5dae2"/>
+" clip-path="url(#paf597ea7ce)" style="fill: #d5dae2"/>
 </g>
 <g id="patch_4">
 <path d="M 91.1 181.9 
-L 277.9 181.9 
-L 277.9 151.7 
+L 269.3 181.9 
+L 269.3 151.7 
 L 91.1 151.7 
 z
-" clip-path="url(#p1fa1eb9749)" style="fill: #eb6834"/>
+" clip-path="url(#paf597ea7ce)" style="fill: #eb6834"/>
 </g>
 <g id="patch_5">
 <path d="M 91.1 131.5 
-L 139.1 131.5 
-L 139.1 101.3 
+L 139.3 131.5 
+L 139.3 101.3 
 L 91.1 101.3 
 z
-" clip-path="url(#p1fa1eb9749)" style="fill: #2a78d6"/>
+" clip-path="url(#paf597ea7ce)" style="fill: #2a78d6"/>
 </g>
 <g id="patch_6">
 <path d="M 91.1 81.1 
@@ -179,7 +179,7 @@ L 91.9 81.1
 L 91.9 50.9 
 L 91.1 50.9 
 z
-" clip-path="url(#p1fa1eb9749)" style="fill: #1baf7a"/>
+" clip-path="url(#paf597ea7ce)" style="fill: #1baf7a"/>
 </g>
 <g id="patch_7">
 <path d="M 91.1 241.4 
@@ -192,13 +192,13 @@ L 481.7 241.4
 " style="fill: none; stroke: #9aa3b2; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
 </g>
 <g id="text_12">
-<text style="font-size: 11px; font-family: 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1d2433" x="442.9" y="220.0" transform="rotate(-0 442.9 220.0)">465</text>
+<text style="font-size: 11px; font-family: 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1d2433" x="442.9" y="220.0" transform="rotate(-0 442.9 220.0)">464</text>
 </g>
 <g id="text_13">
-<text style="font-size: 11px; font-family: 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1d2433" x="280.9" y="169.6" transform="rotate(-0 280.9 169.6)">249</text>
+<text style="font-size: 11px; font-family: 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1d2433" x="272.3" y="169.6" transform="rotate(-0 272.3 169.6)">237</text>
 </g>
 <g id="text_14">
-<text style="font-size: 11px; font-family: 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1d2433" x="142.1" y="119.2" transform="rotate(-0 142.1 119.2)">64</text>
+<text style="font-size: 11px; font-family: 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1d2433" x="142.3" y="119.2" transform="rotate(-0 142.3 119.2)">64</text>
 </g>
 <g id="text_15">
 <text style="font-size: 11px; font-family: 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1d2433" x="94.9" y="68.8" transform="rotate(-0 94.9 68.8)">1</text>
@@ -212,7 +212,7 @@ L 481.7 241.4
 </g>
 </g>
 <defs>
-<clipPath id="p1fa1eb9749">
+<clipPath id="paf597ea7ce">
 <rect x="91.1" y="41.8" width="390.6" height="199.5"/>
 </clipPath>
 </defs>
