@@ -10,306 +10,294 @@ PCM-0047,Palmitic acid,Organic,C,337.15,,,185400.0,1807.0,1807.0,0.162,0.162,989
 PCM-0052,Stearic acid,Organic,C,342.15,,,202500.0,1763.0,1763.0,0.172,0.172,965,848,,,"one-phase value copied to other phase: cp_liquid←solid, k_solid←liquid",0,Zalba2003,PubChem; NIST WebBook,Literature/handbook value - verify against cited reference
 PCM-0055,Naphthalene,Organic,C,353.15,,,147700.0,1470.0,1470.0,0.341,0.132,1145,976,,,one-phase value copied to other phase: cp_liquid←solid,0,Zalba2003,PubChem; NIST WebBook,Literature/handbook value - verify against cited reference
 PCM-0059,Erythritol,Organic,B,391.15,,,339800.0,1380.0,2760.0,0.733,0.326,1480,1300,,,solid/liquid as reported,0,Sharma2009,PubChem,Literature/handbook value - verify against cited reference
-PCM-0068,Water / ice,Inorganic,B,273.15,,,333600.0,2050.0,4180.0,2.25,0.6,917,998,,,solid/liquid as reported,0,NIST_dHfus,PubChem,Literature/handbook value - verify against cited reference
-PCM-0069,Water (ice),Inorganic,B,273.15,,,333600.0,2050.0,4220.0,2.22,0.561,916.7,999.8,,,solid/liquid as reported,0,IAPWS_water,,Literature/handbook value - verify against cited reference
-PCM-0120,Sodium bromide,Inorganic,C,1022.15,,,255000,596.0,606.0,0.318,0.318,3200,3200,0.001156,,"one-phase value copied to other phase: k_solid←liquid, rho_liquid←solid",0,Mao2025,PubChem; Tasidou2019; Chliatzou2018; NIST WebBook,Secondary review table (Mao 2025) - verify against original reference
-PCM-0123,Sodium chloride,Inorganic,C,1074.15,,,482000,1153.0,1204.0,0.4755,0.4755,2165,1556,0.00103,,one-phase value copied to other phase: k_solid←liquid,0,NIST_dHfus,PubChem; Tasidou2019; Chliatzou2018; NIST WebBook,Literature/handbook value - verify against cited reference
-PCM-0133,Caesium,Metallic,C,301.55,,,15700.0,244.0,244.0,35.9,35.9,1930,1930,,,"one-phase value copied to other phase: k_liquid←solid, rho_liquid←solid",0,NIST_dHfus,PubChem; NIST WebBook,Literature/handbook value - verify against cited reference
-PCM-0134,Gallium,Metallic,C,302.95,,,80200.0,375.0,408.0,33.7,33.7,5910,6095,,,one-phase value copied to other phase: k_liquid←solid,0,NIST_dHfus,PubChem; NIST WebBook,Literature/handbook value - verify against cited reference
-PCM-0135,Rubidium,Metallic,C,312.45,,,25600.0,378.0,378.0,58.2,58.2,1532,1532,,,"one-phase value copied to other phase: k_liquid←solid, rho_liquid←solid",0,NIST_dHfus,PubChem; NIST WebBook,Literature/handbook value - verify against cited reference
-PCM-0136,Potassium,Metallic,C,336.65,,,59600.0,880.0,824.0,102.5,102.5,862,862,,,"one-phase value copied to other phase: k_liquid←solid, rho_liquid←solid",0,NIST_dHfus,PubChem; NIST WebBook,Literature/handbook value - verify against cited reference
-PCM-0137,Sodium,Metallic,C,370.95,,,113000,1371.0,1385.0,142,142,968,968,,,"one-phase value copied to other phase: k_liquid←solid, rho_liquid←solid",0,NIST_dHfus,PubChem; NIST WebBook,Literature/handbook value - verify against cited reference
-PCM-0139,Lithium,Metallic,C,453.65,,,432000,4231.0,4379.0,84.8,84.8,534,534,,,"one-phase value copied to other phase: k_liquid←solid, rho_liquid←solid",0,NIST_dHfus,PubChem; NIST WebBook,Literature/handbook value - verify against cited reference
-PCM-0142,Lead,Metallic,C,600.65,,,23000.0,142.0,148.0,35.3,35.3,11340,11340,,,"one-phase value copied to other phase: k_liquid←solid, rho_liquid←solid",0,NIST_dHfus,PubChem; NIST WebBook,Literature/handbook value - verify against cited reference
-PCM-0143,Zinc,Metallic,C,692.65,,,112000,455.0,480.0,116,116,7140,7140,,,"one-phase value copied to other phase: k_liquid←solid, rho_liquid←solid",0,NIST_dHfus,PubChem; NIST WebBook,Literature/handbook value - verify against cited reference
-PCM-0145,Magnesium,Metallic,C,923.15,,,349000,1326.0,1412.0,156,156,1740,1740,,,"one-phase value copied to other phase: k_liquid←solid, rho_liquid←solid",0,NIST_dHfus,PubChem; NIST WebBook,Literature/handbook value - verify against cited reference
-PCM-0146,Aluminium,Metallic,C,933.45,,,397000,1221.0,1177.0,237,237,2700,2700,,,"one-phase value copied to other phase: k_liquid←solid, rho_liquid←solid",0,NIST_dHfus,PubChem; NIST WebBook,Literature/handbook value - verify against cited reference
-PCM-0147,Copper,Metallic,C,1357.75,,,209000,523.0,517.0,401,401,8960,8960,,,"one-phase value copied to other phase: k_liquid←solid, rho_liquid←solid",0,NIST_dHfus,PubChem; NIST WebBook,Literature/handbook value - verify against cited reference
-PCM-0233,NaNO3-KNO3 (50:50 wt%),Eutectic,C,494.15,,,100500.0,2250.0,1350.0,0.56,0.56,1920,1920,,0.000326,"one-phase value copied to other phase: k_solid←liquid, rho_liquid←solid",0,Lleida_Ind2024,SerranoLopez2013,Lleida/CORA open dataset (CC BY 4.0) - downloaded 2026-10-29
-PCM-0242,MgCl2-KCl,Eutectic,C,708.15,,,351000,800.0,960.0,0.81,0.81,2110,2110,,0.000272,"one-phase value copied to other phase: k_solid←liquid, rho_liquid←solid",0,Lleida_HT2024,SerranoLopez2013,Lleida/CORA open dataset (CC BY 4.0) - downloaded 2026-10-29
-PCM-0247,NaCl-MgCl2 (48:52 wt%),Eutectic,C,723.15,,,430000,920.0,1000.0,0.95,0.95,2230,2230,,,"one-phase value copied to other phase: k_solid←liquid, rho_liquid←solid",0,Lleida_HT2024,,Lleida/CORA open dataset (CC BY 4.0) - downloaded 2026-10-29
-PCM-0250,KCl-CaCl2-MgCl2,Eutectic,C,760.15,,,342000,800.0,800.0,0.88,0.88,2530,2530,,,"one-phase value copied to other phase: cp_liquid←solid, k_solid←liquid, rho_liquid←solid",0,Lleida_HT2024,,Lleida/CORA open dataset (CC BY 4.0) - downloaded 2026-10-29
-PCM-0251,Li2CO3-K2CO3,Eutectic,C,761.15,,,342000,1030.0,1340.0,1.99,1.99,2220,2220,,,"one-phase value copied to other phase: k_solid←liquid, rho_liquid←solid",0,Lleida_HT2024,,Lleida/CORA open dataset (CC BY 4.0) - downloaded 2026-10-29
-PCM-0255,Li2CO3-Na2CO3 (44:56 wt%),Eutectic,C,769.15,,,370000,1800.0,2090.0,2.09,2.09,2320,2320,,,"one-phase value copied to other phase: k_solid←liquid, rho_liquid←solid",0,Lleida_HT2024,,Lleida/CORA open dataset (CC BY 4.0) - downloaded 2026-10-29
-PCM-0257,NaCl-CaCl2,Eutectic,C,773.15,,,393000,840.0,1000.0,1.2,1.2,2160,2160,,,"one-phase value copied to other phase: k_solid←liquid, rho_liquid←solid",0,Lleida_HT2024,,Lleida/CORA open dataset (CC BY 4.0) - downloaded 2026-10-29
-PCM-0258,CaCl2-KCl-NaCl (66:5:29),Eutectic,C,777.15,,,279000,1170.0,1000.0,1.0,1.0,2150,2150,,,"one-phase value copied to other phase: k_solid←liquid, rho_liquid←solid",0,Lleida_HT2024,,Lleida/CORA open dataset (CC BY 4.0) - downloaded 2026-10-29
-PCM-0260,NaCl-KCl-Na2CO3,Eutectic,C,842.15,,,249000,1340.0,1410.0,0.5,0.5,1700,2000,,,one-phase value copied to other phase: k_solid←liquid,0,Lleida_HT2024,,Lleida/CORA open dataset (CC BY 4.0) - downloaded 2026-10-29
-PCM-0262,NaCl-Na2CO3 (48:52 wt%),Eutectic,C,853.15,,,339000,1300.0,1300.0,0.6,0.6,2000,2000,,,"one-phase value copied to other phase: cp_liquid←solid, k_solid←liquid, rho_liquid←solid",0,Lleida_HT2024,,Lleida/CORA open dataset (CC BY 4.0) - downloaded 2026-10-29
-PCM-0263,Li2CO3-Na2CO3-K2CO3,Eutectic,C,853.15,,,288000,1800.0,2900.0,1.95,1.95,2340,2340,,,"one-phase value copied to other phase: k_solid←liquid, rho_liquid←solid",0,Lleida_HT2024,,Lleida/CORA open dataset (CC BY 4.0) - downloaded 2026-10-29
-PCM-0264,NaCl-Na2SO4-Na2CO3,Eutectic,C,870.15,,,221000,1200.0,1300.0,0.5,0.5,2000,2000,,,"one-phase value copied to other phase: k_solid←liquid, rho_liquid←solid",0,Lleida_HT2024,,Lleida/CORA open dataset (CC BY 4.0) - downloaded 2026-10-29
-PCM-0410,Axiotherm ATS -63,Commercial,C,210.15,208.15,212.15,190000.0,3000,3000,0.6,0.6,1350,1350,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0411,Axiotherm ATS -50,Commercial,C,223.15,222.15,224.15,220000.0,3000,3000,0.6,0.6,1240,1240,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0412,Axiotherm ATS -40,Commercial,C,233.15,233.15,237.15,180000.0,3000,3000,0.6,0.6,1450,1450,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0413,Axiotherm ATS -34,Commercial,C,239.15,239.15,241.15,240000.0,3000,3000,0.6,0.6,1180,1180,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0414,Axiotherm ATS -24,Commercial,C,249.15,249.15,252.15,340000.0,3000,3000,0.6,0.6,1120,1120,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0415,Axiotherm ATS -21,Commercial,C,252.15,252.15,255.15,320000.0,3000,3000,0.6,0.6,1160,1160,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0416,Axiotherm ATS -12,Commercial,C,261.15,259.15,262.15,360000.0,3000,3000,0.6,0.6,1100,1100,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0417,Axiotherm ATS -10,Commercial,C,263.15,262.15,265.15,345000.0,3000,3000,0.6,0.6,1160,1160,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0418,Axiotherm ATS -6,Commercial,C,267.15,267.15,268.15,362000.0,3000,3000,0.6,0.6,1100,1100,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0419,Axiotherm ATS -3,Commercial,C,270.15,269.15,271.15,330000.0,3000,3000,0.6,0.6,1100,1100,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0420,Axiotherm ATP 2,Commercial,C,275.15,275.15,277.15,215000.0,2000,2000,0.2,0.2,760,760,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0421,Axiotherm ATP 4,Commercial,C,277.15,276.15,279.15,260000.0,2000,2000,0.2,0.2,750,750,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0422,Axiotherm ATP 6,Commercial,C,279.15,277.15,279.15,275000.0,2000,2000,0.2,0.2,740,740,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0423,Axiotherm ATP 12,Commercial,C,285.15,285.15,287.15,215000.0,2000,2000,0.2,0.2,800,800,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0424,Axiotherm ATP 16,Commercial,C,289.15,285.15,289.15,245000.0,2000,2000,0.2,0.2,770,770,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0425,Axiotherm ATP 18,Commercial,C,291.15,290.15,291.15,270000.0,2000,2000,0.2,0.2,760,760,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0426,Axiotherm ATP 20,Commercial,C,293.15,,,220000.0,2500.0,2500.0,0.2,0.2,840,840,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,Axiotherm,Manufacturer datasheet - checked 2026-10-30
-PCM-0427,Axiotherm ATP 23,Commercial,C,296.15,294.15,297.15,230000.0,2000,2000,0.2,0.2,800,800,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0428,Axiotherm ATP 28,Commercial,C,301.15,300.15,302.15,265000.0,2000,2000,0.2,0.2,760,760,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0429,Axiotherm ATS 30,Commercial,C,303.15,301.15,306.15,220000.0,2000,2000,0.6,0.6,1300,1300,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0430,Axiotherm ATP 36,Commercial,C,309.15,308.15,310.15,240000.0,2000,2000,0.2,0.2,800,800,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0431,Axiotherm ATP 43,Commercial,C,316.15,314.15,316.15,265000.0,2000,2000,0.2,0.2,760,760,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0432,Axiotherm ATS 44,Commercial,C,317.15,318.15,321.15,230000.0,3000,3000,0.6,0.6,1400,1400,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0433,Axiotherm ATS 50,Commercial,C,323.15,322.15,323.15,228000.0,3000,3000,0.6,0.6,1300,1300,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0434,Axiotherm ATP 52,Commercial,C,325.15,323.15,326.15,230000.0,2000,2000,0.2,0.2,800,800,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0435,Axiotherm ATS 58,Commercial,C,331.15,329.15,331.15,240000.0,3000,3000,0.6,0.6,1280,1280,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0436,Axiotherm ATP 60,Commercial,C,333.15,330.15,333.15,230000.0,2000,2000,0.2,0.2,800,800,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0437,Axiotherm ATP 70,Commercial,C,343.15,339.15,344.15,240000.0,2000,2000,0.2,0.2,800,800,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0438,Axiotherm ATP 78,Commercial,C,351.15,348.15,352.15,225000.0,2000,2000,0.2,0.2,800,800,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0439,Axiotherm ATS 84,Commercial,C,357.15,354.15,358.15,143000.0,2000,2000,0.6,0.6,1650,1650,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0440,Axiotherm ATS 89,Commercial,C,362.15,361.15,364.15,145000.0,2000,2000,0.6,0.6,1580,1580,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0441,Axiotherm ATS 115,Commercial,C,388.15,388.15,391.15,158000.0,2000,2000,0.6,0.6,1500,1500,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
-PCM-0469,Insolcorp DuraTemp -70C,Commercial,B,203.15,,,193000.0,3100.0,2900.0,2.1,0.5,1700.0,1600.0,,,solid/liquid as reported,0,DuraTemp,,Manufacturer listing - checked 2026-10-29
-PCM-0470,Insolcorp DuraTemp -21C,Commercial,B,252.15,,,285000.0,3290.0,3050.0,0.56,0.51,1240.0,1210.0,,,solid/liquid as reported,0,DuraTemp,,Manufacturer listing - checked 2026-10-29
-PCM-0471,Insolcorp DuraTemp -16C,Commercial,B,257.15,,,300000.0,4100.0,3900.0,0.57,0.54,1070.0,1060.0,,,solid/liquid as reported,0,DuraTemp,,Manufacturer listing - checked 2026-10-29
-PCM-0472,Insolcorp DuraTemp -12C,Commercial,B,261.15,,,310000.0,3900.0,3600.0,0.61,0.58,1120.0,1090.0,,,solid/liquid as reported,0,DuraTemp,,Manufacturer listing - checked 2026-10-29
-PCM-0474,Insolcorp DuraTemp 48C,Commercial,B,321.15,,,240000.0,2100.0,2900.0,0.62,0.51,1450.0,1330.0,,,solid/liquid as reported,0,DuraTemp,,Manufacturer listing - checked 2026-10-29
-PCM-0475,Insolcorp DuraTemp 53C,Commercial,B,326.15,,,285000.0,2100.0,2900.0,0.62,0.51,1480.0,1400.0,,,solid/liquid as reported,0,DuraTemp,,Manufacturer listing - checked 2026-10-29
-PCM-0476,Insolcorp DuraTemp 58C,Commercial,B,331.15,,,280000.0,2100.0,2900.0,0.62,0.51,1480.0,1400.0,,,solid/liquid as reported,0,DuraTemp,,Manufacturer listing - checked 2026-10-29
-PCM-0479,PlusICE E-74,Commercial,C,199.15,,,230000.0,3150.0,3150.0,0.54,0.54,1280.0,1280.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0480,PlusICE E-73,Commercial,C,200.15,,,223000.0,3150.0,3150.0,0.54,0.54,1298.0,1298.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0481,PlusICE E-72,Commercial,C,201.15,,,215000.0,3150.0,3150.0,0.54,0.54,1315.0,1315.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0482,PlusICE E-71,Commercial,C,202.15,,,208000.0,3150.0,3150.0,0.54,0.54,1333.0,1333.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0483,PlusICE E-70,Commercial,C,203.15,,,200000.0,3150.0,3150.0,0.54,0.54,1350.0,1350.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0484,PlusICE E-69,Commercial,C,204.15,,,202000.0,3150.0,3150.0,0.54,0.54,1350.0,1350.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0485,PlusICE E-68,Commercial,C,205.15,,,205000.0,3150.0,3150.0,0.54,0.54,1360.0,1360.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0486,PlusICE E-67,Commercial,C,206.15,,,200000.0,3150.0,3150.0,0.54,0.54,1380.0,1380.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0487,PlusICE E-65,Commercial,C,208.15,,,240000.0,3150.0,3150.0,0.56,0.56,1180.0,1180.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0488,PlusICE E-63,Commercial,C,210.15,,,230000.0,3150.0,3150.0,0.54,0.54,1200.0,1200.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0489,PlusICE E-62,Commercial,C,211.15,,,224000.0,3150.0,3150.0,0.54,0.54,1230.0,1230.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0490,PlusICE E-61,Commercial,C,212.15,,,218000.0,3150.0,3150.0,0.54,0.54,1260.0,1260.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0491,PlusICE E-60,Commercial,C,213.15,,,212000.0,3150.0,3150.0,0.54,0.54,1290.0,1290.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0492,PlusICE E-59,Commercial,C,214.15,,,206000.0,3150.0,3150.0,0.54,0.54,1320.0,1320.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0493,PlusICE E-58,Commercial,C,215.15,,,200000.0,3150.0,3150.0,0.54,0.54,1350.0,1350.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0494,PlusICE E-57,Commercial,C,216.15,,,230000.0,3150.0,3150.0,0.54,0.54,1380.0,1380.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0495,PlusICE E-56,Commercial,C,217.15,,,228000.0,3150.0,3150.0,0.54,0.54,1400.0,1400.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0496,PlusICE E-55,Commercial,C,218.15,,,223000.0,3150.0,3150.0,0.54,0.54,1420.0,1420.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0497,PlusICE E-54,Commercial,C,219.15,,,219000.0,3150.0,3150.0,0.54,0.54,1440.0,1440.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0498,PlusICE E-53,Commercial,C,220.15,,,215000.0,3150.0,3150.0,0.54,0.54,1460.0,1460.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0499,PlusICE E-52,Commercial,C,221.15,,,211000.0,3150.0,3150.0,0.54,0.54,1480.0,1480.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0500,PlusICE E-51,Commercial,C,222.15,,,206000.0,3150.0,3150.0,0.54,0.54,1500.0,1500.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0501,PlusICE E-50,Commercial,C,223.15,,,175000.0,3280.0,3280.0,0.56,0.56,1325.0,1325.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0502,PlusICE E-49,Commercial,C,224.15,,,202000.0,3280.0,3280.0,0.56,0.56,1510.0,1510.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0503,PlusICE E-48,Commercial,C,225.15,,,202000.0,3280.0,3280.0,0.56,0.56,1510.0,1510.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0504,PlusICE E-37,Commercial,C,236.15,,,225000.0,3150.0,3150.0,0.54,0.54,1500.0,1500.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0505,PlusICE E-34,Commercial,C,239.15,,,200000.0,3050.0,3050.0,0.54,0.54,1205.0,1205.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0506,PlusICE E-32,Commercial,C,241.15,,,225000.0,2950.0,2950.0,0.56,0.56,1290.0,1290.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0507,PlusICE E-29,Commercial,C,244.15,,,250000.0,3690.0,3690.0,0.64,0.64,1420.0,1420.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0508,PlusICE E-26,Commercial,C,247.15,,,265000.0,3670.0,3670.0,0.58,0.58,1250.0,1250.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0509,PlusICE E-22,Commercial,C,251.15,,,305000.0,3340.0,3340.0,0.57,0.57,1180.0,1180.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0510,PlusICE E-21,Commercial,C,252.15,,,285000.0,3130.0,3130.0,0.51,0.51,1240.0,1240.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0511,PlusICE E-19,Commercial,C,254.15,,,300000.0,3290.0,3290.0,0.58,0.58,1125.0,1125.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0512,PlusICE E-15,Commercial,C,258.15,,,320000.0,3870.0,3870.0,0.53,0.53,1060.0,1060.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0513,PlusICE E-11,Commercial,C,261.15,,,310000.0,3550.0,3550.0,0.57,0.57,1090.0,1090.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0514,PlusICE E-6,Commercial,C,267.15,,,300000.0,3830.0,3830.0,0.56,0.56,1110.0,1110.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0515,PlusICE E-3,Commercial,C,269.15,,,330000.0,3840.0,3840.0,0.6,0.6,1060.0,1060.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0516,PlusICE E-2,Commercial,C,271.15,,,325000.0,3800.0,3800.0,0.58,0.58,1070.0,1070.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0517,PlusICE E0,Commercial,C,273.15,,,395000.0,4190.0,4190.0,0.58,0.58,1000.0,1000.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0518,PlusICE A2,Commercial,C,275.15,,,230000.0,2200.0,2200.0,0.21,0.21,765.0,765.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0519,PlusICE A3,Commercial,C,276.15,,,230000.0,2200.0,2200.0,0.21,0.21,765.0,765.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0520,PlusICE A4,Commercial,C,277.15,,,235000.0,2180.0,2180.0,0.21,0.21,766.0,766.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0521,PlusICE A5,Commercial,C,278.15,,,170000.0,2180.0,2180.0,0.22,0.22,768.0,768.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0522,PlusICE A6,Commercial,C,279.15,,,185000.0,2170.0,2170.0,0.21,0.21,768.0,768.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0523,PlusICE A6.5,Commercial,C,279.65,,,190000.0,2180.0,2180.0,0.22,0.22,770.0,770.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0524,PlusICE A7,Commercial,C,280.15,,,190000.0,2180.0,2180.0,0.22,0.22,770.0,770.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0525,PlusICE S8,Commercial,C,281.15,,,130000.0,1900.0,1900.0,0.44,0.44,1475.0,1475.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0526,PlusICE A8,Commercial,C,281.15,,,180000.0,2160.0,2160.0,0.21,0.21,770.0,770.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0527,PlusICE A9,Commercial,C,282.15,,,190000.0,2160.0,2160.0,0.21,0.21,770.0,770.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0528,PlusICE S10,Commercial,C,283.15,,,170000.0,1900.0,1900.0,0.43,0.43,1470.0,1470.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0529,PlusICE A10,Commercial,C,283.15,,,210000.0,2160.0,2160.0,0.22,0.22,770.0,770.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0530,PlusICE A11,Commercial,C,284.15,,,210000.0,2160.0,2160.0,0.22,0.22,775.0,775.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0531,PlusICE A12,Commercial,C,285.15,,,215000.0,2160.0,2160.0,0.22,0.22,775.0,775.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0532,PlusICE S13,Commercial,C,286.15,,,150000.0,1900.0,1900.0,0.43,0.43,1515.0,1515.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0533,PlusICE A13,Commercial,C,286.15,,,225000.0,2160.0,2160.0,0.22,0.22,775.0,775.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0534,PlusICE A14,Commercial,C,287.15,,,200000.0,2160.0,2160.0,0.22,0.22,775.0,775.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0535,PlusICE S15,Commercial,C,288.15,,,180000.0,1900.0,1900.0,0.43,0.43,1510.0,1510.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0536,PlusICE A15,Commercial,C,288.15,,,205000.0,2160.0,2160.0,0.18,0.18,780.0,780.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0537,PlusICE A16,Commercial,C,289.15,,,225000.0,2160.0,2160.0,0.18,0.18,780.0,780.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0538,PlusICE S17,Commercial,C,290.15,,,155000.0,1900.0,1900.0,0.43,0.43,1525.0,1525.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0539,PlusICE A17,Commercial,C,290.15,,,235000.0,2180.0,2180.0,0.18,0.18,780.0,780.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0540,PlusICE S18,Commercial,C,291.15,,,145000.0,1900.0,1900.0,0.43,0.43,1520.0,1520.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0541,PlusICE A18,Commercial,C,291.15,,,155000.0,2180.0,2180.0,0.22,0.22,765.0,765.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0542,PlusICE S19,Commercial,C,292.15,,,175000.0,1900.0,1900.0,0.43,0.43,1520.0,1520.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0543,PlusICE A19,Commercial,C,292.15,,,150000.0,2180.0,2180.0,0.22,0.22,765.0,765.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0544,PlusICE S20,Commercial,C,293.15,,,195000.0,2200.0,2200.0,0.54,0.54,1530.0,1530.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0545,PlusICE A20,Commercial,C,293.15,,,160000.0,2200.0,2200.0,0.22,0.22,770.0,770.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0546,PlusICE S21,Commercial,C,294.15,,,220000.0,2200.0,2200.0,0.54,0.54,1530.0,1530.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0547,PlusICE A21,Commercial,C,294.15,,,160000.0,2200.0,2200.0,0.22,0.22,770.0,770.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0548,PlusICE S22,Commercial,C,295.15,,,215000.0,2200.0,2200.0,0.54,0.54,1530.0,1530.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0549,PlusICE A22,Commercial,C,295.15,,,160000.0,2200.0,2200.0,0.18,0.18,785.0,785.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0550,PlusICE S23,Commercial,C,296.15,,,200000.0,2200.0,2200.0,0.54,0.54,1530.0,1530.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0551,PlusICE A23,Commercial,C,296.15,,,155000.0,2200.0,2200.0,0.18,0.18,785.0,785.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0552,PlusICE S24,Commercial,C,297.15,,,180000.0,2200.0,2200.0,0.54,0.54,1530.0,1530.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0553,PlusICE A24,Commercial,C,297.15,,,155000.0,2220.0,2220.0,0.18,0.18,790.0,790.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0554,PlusICE S25,Commercial,C,298.15,,,175000.0,2200.0,2200.0,0.54,0.54,1530.0,1530.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0555,PlusICE A25,Commercial,C,298.15,,,220000.0,2220.0,2220.0,0.18,0.18,785.0,785.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0556,PlusICE X25,Commercial,C,298.15,,,110000.0,1630.0,1630.0,0.36,0.36,1055.0,1055.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0557,PlusICE A26,Commercial,C,299.15,,,230000.0,2220.0,2220.0,0.21,0.21,790.0,790.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0558,PlusICE S27,Commercial,C,300.15,,,185000.0,2200.0,2200.0,0.54,0.54,1530.0,1530.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0559,PlusICE A27,Commercial,C,300.15,,,250000.0,2220.0,2220.0,0.22,0.22,768.0,768.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0560,PlusICE A28,Commercial,C,301.15,,,265000.0,2220.0,2220.0,0.21,0.21,789.0,789.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0561,PlusICE A29,Commercial,C,302.15,,,230000.0,2220.0,2220.0,0.21,0.21,785.0,785.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0562,PlusICE A30,Commercial,C,303.15,,,230000.0,2220.0,2220.0,0.21,0.21,790.0,790.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0563,PlusICE X30,Commercial,C,303.15,,,115000.0,1650.0,1650.0,0.36,0.36,1050.0,1050.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0564,PlusICE A31,Commercial,C,304.15,,,230000.0,2220.0,2220.0,0.21,0.21,790.0,790.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0565,PlusICE S32,Commercial,C,305.15,,,220000.0,1900.0,1900.0,0.51,0.51,1460.0,1460.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0566,PlusICE A32,Commercial,C,305.15,,,120000.0,2200.0,2200.0,0.21,0.21,845.0,845.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0567,PlusICE A33,Commercial,C,306.15,,,230000.0,2220.0,2220.0,0.21,0.21,790.0,790.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0568,PlusICE S34,Commercial,C,307.15,,,140000.0,2100.0,2100.0,0.52,0.52,2100.0,2100.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0569,PlusICE A34,Commercial,C,307.15,,,230000.0,2220.0,2220.0,0.21,0.21,790.0,790.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0570,PlusICE A36,Commercial,C,309.15,,,250000.0,2300.0,2300.0,0.22,0.22,776.0,776.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0571,PlusICE A39,Commercial,C,312.15,,,135000.0,2220.0,2220.0,0.22,0.22,900.0,900.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0572,PlusICE X40,Commercial,C,313.15,,,150000.0,1670.0,1670.0,0.36,0.36,1046.0,1046.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0573,PlusICE A42,Commercial,C,315.15,,,140000.0,2220.0,2220.0,0.21,0.21,905.0,905.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0574,PlusICE A43,Commercial,C,316.15,,,280000.0,2370.0,2370.0,0.18,0.18,780.0,780.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0575,PlusICE S46,Commercial,C,319.15,,,110000.0,2200.0,2200.0,0.6,0.6,1610.0,1610.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0576,PlusICE A46,Commercial,C,319.15,,,155000.0,2220.0,2220.0,0.22,0.22,910.0,910.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0577,PlusICE S47,Commercial,C,320.15,,,110000.0,2250.0,2250.0,0.6,0.6,1610.0,1610.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0578,PlusICE S48,Commercial,C,321.15,,,110000.0,2350.0,2350.0,0.61,0.61,1565.0,1565.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0579,PlusICE A48,Commercial,C,321.15,,,230000.0,2850.0,2850.0,0.18,0.18,810.0,810.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0580,PlusICE S49,Commercial,C,322.15,,,110000.0,2380.0,2380.0,0.61,0.61,1560.0,1560.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0581,PlusICE S50,Commercial,C,323.15,,,110000.0,2410.0,2410.0,0.62,0.62,1545.0,1545.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0582,PlusICE S51,Commercial,C,324.15,,,110000.0,2450.0,2450.0,0.63,0.63,1515.0,1515.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0583,PlusICE S52,Commercial,C,325.15,,,115000.0,2450.0,2450.0,0.63,0.63,1512.0,1512.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0584,PlusICE S53,Commercial,C,326.15,,,115000.0,2500.0,2500.0,0.65,0.65,1510.0,1510.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0585,PlusICE A53,Commercial,C,326.15,,,155000.0,2220.0,2220.0,0.22,0.22,910.0,910.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0586,PlusICE S54,Commercial,C,327.15,,,120000.0,2500.0,2500.0,0.65,0.65,1510.0,1510.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0587,PlusICE S55,Commercial,C,328.15,,,120000.0,2500.0,2500.0,0.65,0.65,1508.0,1508.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0588,PlusICE X55,Commercial,C,328.15,,,115000.0,1620.0,1620.0,0.36,0.36,1060.0,1060.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0589,PlusICE S56,Commercial,C,329.15,,,130000.0,2500.0,2500.0,0.67,0.67,1505.0,1505.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0590,PlusICE S57,Commercial,C,330.15,,,135000.0,2500.0,2500.0,0.67,0.67,1505.0,1505.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0591,PlusICE S58,Commercial,C,331.15,,,145000.0,2550.0,2550.0,0.69,0.69,1505.0,1505.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0592,PlusICE A58,Commercial,C,331.15,,,240000.0,2850.0,2850.0,0.18,0.18,820.0,820.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0593,PlusICE A62,Commercial,C,335.15,,,205000.0,2200.0,2200.0,0.22,0.22,910.0,910.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0594,PlusICE S70,Commercial,C,343.15,,,100000.0,2100.0,2100.0,0.57,0.57,1680.0,1680.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0595,PlusICE A70,Commercial,C,343.15,,,225000.0,2200.0,2200.0,0.23,0.23,890.0,890.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0596,PlusICE X70,Commercial,C,343.15,,,160000.0,1570.0,1570.0,0.36,0.36,1085.0,1085.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0597,PlusICE S72,Commercial,C,345.15,,,155000.0,2130.0,2130.0,0.58,0.58,1666.0,1666.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0598,PlusICE A73,Commercial,C,346.15,,,225000.0,2200.0,2200.0,0.23,0.23,890.0,890.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0599,PlusICE A78,Commercial,C,351.15,,,225000.0,2200.0,2200.0,0.23,0.23,890.0,890.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0600,PlusICE X80,Commercial,C,353.15,,,160000.0,1520.0,1520.0,0.36,0.36,1193.0,1193.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0601,PlusICE A82,Commercial,C,355.15,,,240000.0,2200.0,2200.0,0.23,0.23,930.0,930.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0602,PlusICE S83,Commercial,C,356.15,,,100000.0,2310.0,2310.0,0.62,0.62,1600.0,1600.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0603,PlusICE S89,Commercial,C,362.15,,,145000.0,2480.0,2480.0,0.67,0.67,1550.0,1550.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0604,PlusICE X90,Commercial,C,363.15,,,170000.0,1510.0,1510.0,0.36,0.36,1200.0,1200.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0605,PlusICE A95,Commercial,C,368.15,,,260000.0,2200.0,2200.0,0.22,0.22,900.0,900.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0606,PlusICE X95,Commercial,C,368.15,,,140000.0,1510.0,1510.0,0.36,0.36,1215.0,1215.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0607,PlusICE H105,Commercial,C,377.15,,,125000.0,1500.0,1500.0,0.5,0.5,1700.0,1700.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0608,PlusICE H115,Commercial,C,387.15,,,100000.0,1510.0,1510.0,0.5,0.5,2200.0,2200.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0609,PlusICE S117,Commercial,C,390.15,,,125000.0,2610.0,2610.0,0.7,0.7,1450.0,1450.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0610,PlusICE A118,Commercial,C,391.15,,,195000.0,2200.0,2200.0,0.22,0.22,900.0,900.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0611,PlusICE X120,Commercial,C,393.15,,,185000.0,1500.0,1500.0,0.36,0.36,1245.0,1245.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0612,PlusICE H120,Commercial,C,393.15,,,120000.0,1510.0,1510.0,0.51,0.51,2220.0,2220.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0613,PlusICE X130,Commercial,C,403.15,,,315000.0,1470.0,1470.0,0.36,0.36,1280.0,1280.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0614,PlusICE A133,Commercial,C,406.15,,,200000.0,2200.0,2200.0,0.23,0.23,880.0,880.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0615,PlusICE A144,Commercial,C,417.15,,,115000.0,2200.0,2200.0,0.23,0.23,880.0,880.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0616,PlusICE A155,Commercial,C,428.15,,,102000.0,2200.0,2200.0,0.23,0.23,880.0,880.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0617,PlusICE H160,Commercial,C,435.15,,,105000.0,1510.0,1510.0,0.51,0.51,1910.0,1910.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0619,PlusICE X165,Commercial,C,438.15,,,225000.0,1430.0,1430.0,0.36,0.36,1304.0,1304.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0620,PlusICE X180,Commercial,C,453.15,,,275000.0,1400.0,1400.0,0.36,0.36,1330.0,1330.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0621,PlusICE H190,Commercial,C,464.15,,,170000.0,1510.0,1510.0,0.51,0.51,2300.0,2300.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0622,PlusICE H220,Commercial,C,493.15,,,100000.0,1520.0,1520.0,0.52,0.52,2000.0,2000.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0623,PlusICE H230,Commercial,C,500.15,,,105000.0,1520.0,1520.0,0.52,0.52,1553.0,1553.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0624,PlusICE H250,Commercial,C,523.15,,,280000.0,1530.0,1530.0,0.52,0.52,2380.0,2380.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0625,PlusICE H255,Commercial,C,527.15,,,270000.0,1530.0,1530.0,0.52,0.52,2380.0,2380.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0626,PlusICE H280,Commercial,C,555.15,,,160000.0,1540.0,1540.0,0.53,0.53,2250.0,2250.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0627,PlusICE H285,Commercial,C,558.15,,,85000.0,1540.0,1540.0,0.53,0.53,2200.0,2200.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0628,PlusICE H290,Commercial,C,565.15,,,150000.0,1550.0,1550.0,0.53,0.53,2200.0,2200.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0629,PlusICE H300,Commercial,C,575.15,,,130000.0,1550.0,1550.0,0.54,0.54,1900.0,1900.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0630,PlusICE H305,Commercial,C,578.15,,,150000.0,1560.0,1560.0,0.54,0.54,1570.0,1570.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0631,PlusICE H320,Commercial,C,593.15,,,70000.0,1500.0,1500.0,0.55,0.55,2100.0,2100.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0632,PlusICE H325,Commercial,C,600.15,,,80000.0,1510.0,1510.0,0.55,0.55,2110.0,2110.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0633,PlusICE H335,Commercial,C,607.15,,,80000.0,1510.0,1510.0,0.55,0.55,2110.0,2110.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0634,PlusICE H355,Commercial,C,626.15,,,230000.0,1520.0,1520.0,0.56,0.56,2060.0,2060.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0635,PlusICE H380,Commercial,C,655.15,,,225000.0,1530.0,1530.0,0.56,0.56,2050.0,2050.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0636,PlusICE H395,Commercial,C,668.15,,,215000.0,1530.0,1530.0,0.56,0.56,2330.0,2330.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0637,PlusICE H425,Commercial,C,698.15,,,220000.0,1540.0,1540.0,0.57,0.57,2100.0,2100.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0638,PlusICE H430,Commercial,C,703.15,,,125000.0,1540.0,1540.0,0.57,0.57,2160.0,2160.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0639,PlusICE H485,Commercial,C,756.15,,,200000.0,1550.0,1550.0,0.57,0.57,2220.0,2220.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0640,PlusICE H500,Commercial,C,773.15,,,300000.0,1550.0,1550.0,0.57,0.57,2220.0,2220.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0641,PlusICE H500A,Commercial,C,773.15,,,140000.0,1560.0,1560.0,0.57,0.57,2140.0,2140.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0642,PlusICE H525,Commercial,C,798.15,,,155000.0,1560.0,1560.0,0.57,0.57,2350.0,2350.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0643,PlusICE H535,Commercial,C,808.15,,,130000.0,1570.0,1570.0,0.56,0.56,2320.0,2320.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0644,PlusICE H610,Commercial,C,883.15,,,410000.0,1570.0,1570.0,0.56,0.56,2070.0,2070.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0645,PlusICE H640,Commercial,C,913.15,,,338000.0,1580.0,1580.0,0.56,0.56,2380.0,2380.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0646,PlusICE H650,Commercial,C,925.15,,,300000.0,1580.0,1580.0,0.56,0.56,2450.0,2450.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0647,PlusICE H690,Commercial,C,960.15,,,250000.0,1590.0,1590.0,0.56,0.56,2400.0,2400.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0648,PlusICE H695,Commercial,C,968.15,,,280000.0,1590.0,1590.0,0.56,0.56,2460.0,2460.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0649,PlusICE H700,Commercial,C,972.15,,,250000.0,1600.0,1600.0,0.57,0.57,2410.0,2410.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0650,PlusICE H705,Commercial,C,978.15,,,250000.0,1600.0,1600.0,0.57,0.57,2430.0,2430.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0651,PlusICE H705A,Commercial,C,978.15,,,452000.0,1600.0,1600.0,0.57,0.57,2040.0,2040.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0652,PlusICE H725,Commercial,C,998.15,,,602000.0,1590.0,1590.0,0.58,0.58,2210.0,2210.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0653,PlusICE H755,Commercial,C,1028.15,,,466000.0,1590.0,1590.0,0.58,0.58,2160.0,2160.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0654,PlusICE H845,Commercial,C,1118.15,,,276000.0,1580.0,1580.0,0.59,0.59,2530.0,2530.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0655,PlusICE H885,Commercial,C,1158.15,,,236000.0,1580.0,1580.0,0.59,0.59,2290.0,2290.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
-PCM-0667,Pluss savE HS65N,Commercial,C,208.15,,,172000.0,3380.0,3380.0,0.5,0.5,1158,1158,,,"one-phase value copied to other phase: cp_solid←liquid, k_solid←liquid, rho_solid←liquid",0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0670,Pluss savE HS23N,Commercial,B,251.15,,,274000.0,1580.0,3400.0,4.976,0.702,1078,1155,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0671,Pluss savE HS18N,Commercial,C,255.15,,,260000.0,3900.0,3480.0,0.44,0.44,1083,1095,,,one-phase value copied to other phase: k_solid←liquid,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0672,Pluss savE HS15N,Commercial,B,257.15,,,327000.0,1870.0,3400.0,5.26,0.53,1016,1070,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0673,Pluss savE HS10N,Commercial,B,263.15,,,330000.0,1900.0,3400.0,4.25,0.6,1057,1125,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0674,Pluss savE HS3N,Commercial,B,271.15,,,359000.0,1800.0,3980.0,2.2,0.35,985,1060,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0675,Pluss savE HS01,Commercial,B,273.15,,,359000.0,2000.0,3900.0,2.2,0.55,924,1010,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0676,Pluss savE OM03,Commercial,B,278.15,,,196000.0,1760.0,1910.0,0.224,0.146,912,835,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0677,Pluss savE FS03,Commercial,C,278.15,,,214000.0,2200.0,2000.0,0.15,0.15,854,854,,,"one-phase value copied to other phase: k_liquid←solid, rho_liquid←solid",0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0678,Pluss savE OM05-P,Commercial,B,279.15,,,220000.0,2050.0,1820.0,0.13,0.12,810,763,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0679,Pluss savE OM08,Commercial,B,280.15,,,154000.0,1710.0,2110.0,0.235,0.118,1190,1020,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0680,Pluss savE OM18,Commercial,B,291.15,,,169000.0,2920.0,2690.0,0.182,0.175,906,880,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0681,Pluss savE OM18-P,Commercial,B,292.15,,,228000.0,3860.0,3500.0,0.13,0.15,820,763,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0683,Pluss savE OM21,Commercial,B,295.15,,,174000.0,2820.0,2850.0,0.21,0.14,931,891,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0684,Pluss savE HS22,Commercial,B,296.15,,,190000.0,2270.0,2530.0,1.13,0.56,1651,1540,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0685,Pluss savE HS25,Commercial,B,298.15,,,190000.0,2070.0,2420.0,1.05,0.55,1717,1557,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0686,Pluss savE FS29,Commercial,C,300.15,,,160000.0,2700.0,2100.0,0.45,0.45,1040,952,,,one-phase value copied to other phase: k_liquid←solid,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0687,Pluss savE OM29,Commercial,B,301.15,,,194000.0,2320.0,2710.0,0.293,0.172,976,870,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0688,Pluss savE HS29,Commercial,B,302.15,,,214000.0,1510.0,2620.0,0.478,0.382,1681,1530,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0689,Pluss savE FS30,Commercial,B,302.15,,,132000.0,2460.0,2770.0,0.496,0.34,1058,960,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0690,Pluss savE OM30,Commercial,B,305.15,,,206000.0,2600.0,2680.0,0.185,0.123,906,878,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0691,Pluss savE OM32,Commercial,B,306.15,,,156000.0,3210.0,2810.0,0.219,0.145,926,870,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0692,Pluss savE HS36,Commercial,B,308.15,,,163000.0,1980.0,2320.0,0.5,0.47,1967,1850,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0693,Pluss savE OM35,Commercial,B,308.15,,,171000.0,2570.0,2780.0,0.2,0.16,900,870,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0694,Pluss savE OM37,Commercial,B,311.15,,,186000.0,2550.0,2630.0,0.16,0.13,973,860,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0695,Pluss savE OM39,Commercial,B,312.15,,,229000.0,2000.0,2400.0,0.19,0.165,850,824,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0696,Pluss savE OM42,Commercial,B,317.15,,,199000.0,2710.0,2780.0,0.19,0.1,903,863,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0697,Pluss savE FS42,Commercial,C,317.15,,,136000.0,3010.0,2680.0,0.3,0.3,997,1100,,,one-phase value copied to other phase: k_liquid←solid,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0698,Pluss savE OM46,Commercial,B,320.15,,,177000.0,2500.0,2700.0,0.2,0.1,917,880,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0699,Pluss savE OM49,Commercial,B,322.15,,,224000.0,2100.0,2400.0,0.33,0.27,816,780,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0700,Pluss savE OM50,Commercial,B,323.15,,,189000.0,3330.0,2780.0,0.21,0.14,961,859,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0701,Pluss savE HS48,Commercial,B,323.15,,,211000.0,3100.0,3470.0,0.6,0.46,1400,1380,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0702,Pluss savE OM48,Commercial,B,324.15,,,165000.0,2020.0,2350.0,0.2,0.1,960,875,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0703,Pluss savE OM55,Commercial,B,328.15,,,188000.0,2680.0,2760.0,0.16,0.1,935,841,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0704,Pluss savE HS58,Commercial,B,331.15,,,267000.0,2400.0,3150.0,0.61,0.51,1400,1320,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0705,Pluss savE FS65,Commercial,C,339.15,,,159000.0,2540.0,2160.0,0.25,0.25,842,842,,,"one-phase value copied to other phase: k_liquid←solid, rho_liquid←solid",0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0706,Pluss savE OM65,Commercial,B,340.15,,,188000.0,3480.0,3320.0,0.19,0.13,924,847,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0707,Pluss savE HS78,Commercial,B,351.15,,,240000.0,1460.0,1590.0,0.7,0.89,1890,1900,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
-PCM-0709,PureTemp -37,Commercial,B,236.15,,,145000,1390.0,1990.0,0.25,0.15,970.0,880.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
-PCM-0710,PureTemp -21,Commercial,B,252.15,,,239000,1830.0,3430.0,2.39,0.55,1090.0,1170.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
-PCM-0711,PureTemp -15,Commercial,B,258.15,,,301000,1840.0,3500.0,2.34,0.55,980.0,1040.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
-PCM-0712,PureTemp 4,Commercial,B,278.15,,,187000,1780.0,2260.0,0.25,0.15,960.0,880.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
-PCM-0713,PureTemp 8,Commercial,B,281.15,,,178000,1850.0,2150.0,0.22,0.14,950.0,860.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
-PCM-0714,PureTemp 15,Commercial,B,288.15,,,182000,2250.0,2560.0,0.25,0.15,950.0,860.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
-PCM-0715,PureTemp 17,Commercial,C,290.15,,,217000,1880.0,2200.0,0.32,0.14,770,770,,,unspecified value used for both phases,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
-PCM-0716,PureTemp 18,Commercial,B,291.15,,,192000,1470.0,1740.0,0.25,0.15,950.0,860.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
-PCM-0717,PureTemp 20,Commercial,B,293.15,,,171000,2070.0,2150.0,0.23,0.14,950.0,860.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
-PCM-0718,PureTemp 23,Commercial,B,296.15,,,227000,1840.0,1990.0,0.25,0.15,910.0,830.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
-PCM-0719,PureTemp 25,Commercial,B,298.15,,,187000,1990.0,2290.0,0.25,0.15,950.0,860.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
-PCM-0720,PureTemp 27,Commercial,B,300.15,,,202000,2460.0,2630.0,0.25,0.15,950.0,860.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
-PCM-0721,PureTemp 29,Commercial,B,302.15,,,202000,1770.0,1940.0,0.25,0.15,940.0,850.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
-PCM-0722,PureTemp 37,Commercial,B,310.15,,,210000,2210.0,2630.0,0.25,0.15,920.0,840.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
-PCM-0723,PureTemp 48,Commercial,B,322.15,,,230000,2100.0,2270.0,0.25,0.15,900.0,820.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
-PCM-0724,PureTemp 60,Commercial,B,330.15,,,200000,2040.0,2380.0,0.25,0.15,960.0,870.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
-PCM-0725,PureTemp 58,Commercial,B,331.15,,,225000,2470.0,2710.0,0.25,0.15,890.0,810.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
-PCM-0726,PureTemp 63,Commercial,B,336.15,,,206000,1990.0,2160.0,0.25,0.15,920.0,840.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
-PCM-0727,PureTemp 68,Commercial,B,341.15,,,213000,1850.0,1910.0,0.25,0.15,960.0,870.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
-PCM-0729,PureTemp 151,Commercial,B,424.15,,,217000,2060.0,2170.0,0.25,0.15,1490.0,1360.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
-PCM-0768,Rubitherm RT 54 HC,Commercial,B,327.15,,,200000.0,2000,2000,0.2,0.2,990,850,,,solid/liquid as reported,1,Rubitherm,,Manufacturer listing - checked 2026-10-29
-PCM-0769,Rubitherm RT 55,Commercial,B,328.15,,,170000.0,2000,2000,0.2,0.2,880,770,,,solid/liquid as reported,1,Rubitherm,,Manufacturer listing - checked 2026-10-29
-PCM-0772,Rubitherm RT 64 HC,Commercial,B,337.15,,,250000.0,2000,2000,0.2,0.2,880,780,,,solid/liquid as reported,1,Rubitherm,,Manufacturer listing - checked 2026-10-29
+PCM-0067,Water / ice,Inorganic,B,273.15,,,333600.0,2050.0,4180.0,2.25,0.6,917,998,,,solid/liquid as reported,0,NIST_dHfus,PubChem,Literature/handbook value - verify against cited reference
+PCM-0068,Water (ice),Inorganic,B,273.15,,,333600.0,2050.0,4220.0,2.22,0.561,916.7,999.8,,,solid/liquid as reported,0,IAPWS_water,,Literature/handbook value - verify against cited reference
+PCM-0119,Sodium bromide,Inorganic,C,1022.15,,,255000,596.0,606.0,0.318,0.318,3200,3200,0.001156,,"one-phase value copied to other phase: k_solid←liquid, rho_liquid←solid",0,Mao2025,PubChem; Tasidou2019; Chliatzou2018; NIST WebBook,Secondary review table (Mao 2025) - verify against original reference
+PCM-0122,Sodium chloride,Inorganic,C,1074.15,,,482000,1153.0,1204.0,0.4755,0.4755,2165,1556,0.00103,,one-phase value copied to other phase: k_solid←liquid,0,NIST_dHfus,PubChem; Tasidou2019; Chliatzou2018; NIST WebBook,Literature/handbook value - verify against cited reference
+PCM-0132,Caesium,Metallic,C,301.55,,,15700.0,244.0,244.0,35.9,35.9,1930,1930,,,"one-phase value copied to other phase: k_liquid←solid, rho_liquid←solid",0,NIST_dHfus,PubChem; NIST WebBook,Literature/handbook value - verify against cited reference
+PCM-0133,Gallium,Metallic,C,302.95,,,80200.0,375.0,408.0,33.7,33.7,5910,6095,,,one-phase value copied to other phase: k_liquid←solid,0,NIST_dHfus,PubChem; NIST WebBook,Literature/handbook value - verify against cited reference
+PCM-0134,Rubidium,Metallic,C,312.45,,,25600.0,378.0,378.0,58.2,58.2,1532,1532,,,"one-phase value copied to other phase: k_liquid←solid, rho_liquid←solid",0,NIST_dHfus,PubChem; NIST WebBook,Literature/handbook value - verify against cited reference
+PCM-0135,Potassium,Metallic,C,336.65,,,59600.0,880.0,824.0,102.5,102.5,862,862,,,"one-phase value copied to other phase: k_liquid←solid, rho_liquid←solid",0,NIST_dHfus,PubChem; NIST WebBook,Literature/handbook value - verify against cited reference
+PCM-0136,Sodium,Metallic,C,370.95,,,113000,1371.0,1385.0,142,142,968,968,,,"one-phase value copied to other phase: k_liquid←solid, rho_liquid←solid",0,NIST_dHfus,PubChem; NIST WebBook,Literature/handbook value - verify against cited reference
+PCM-0138,Lithium,Metallic,C,453.65,,,432000,4231.0,4379.0,84.8,84.8,534,534,,,"one-phase value copied to other phase: k_liquid←solid, rho_liquid←solid",0,NIST_dHfus,PubChem; NIST WebBook,Literature/handbook value - verify against cited reference
+PCM-0141,Lead,Metallic,C,600.65,,,23000.0,142.0,148.0,35.3,35.3,11340,11340,,,"one-phase value copied to other phase: k_liquid←solid, rho_liquid←solid",0,NIST_dHfus,PubChem; NIST WebBook,Literature/handbook value - verify against cited reference
+PCM-0142,Zinc,Metallic,C,692.65,,,112000,455.0,480.0,116,116,7140,7140,,,"one-phase value copied to other phase: k_liquid←solid, rho_liquid←solid",0,NIST_dHfus,PubChem; NIST WebBook,Literature/handbook value - verify against cited reference
+PCM-0144,Magnesium,Metallic,C,923.15,,,349000,1326.0,1412.0,156,156,1740,1740,,,"one-phase value copied to other phase: k_liquid←solid, rho_liquid←solid",0,NIST_dHfus,PubChem; NIST WebBook,Literature/handbook value - verify against cited reference
+PCM-0145,Aluminium,Metallic,C,933.45,,,397000,1221.0,1177.0,237,237,2700,2700,,,"one-phase value copied to other phase: k_liquid←solid, rho_liquid←solid",0,NIST_dHfus,PubChem; NIST WebBook,Literature/handbook value - verify against cited reference
+PCM-0146,Copper,Metallic,C,1357.75,,,209000,523.0,517.0,401,401,8960,8960,,,"one-phase value copied to other phase: k_liquid←solid, rho_liquid←solid",0,NIST_dHfus,PubChem; NIST WebBook,Literature/handbook value - verify against cited reference
+PCM-0232,NaNO3-KNO3 (50:50 wt%),Eutectic,C,494.15,,,100500.0,2250.0,1350.0,0.56,0.56,1920,1920,,0.000326,"one-phase value copied to other phase: k_solid←liquid, rho_liquid←solid",0,Lleida_Ind2024,SerranoLopez2013,Lleida/CORA open dataset (CC BY 4.0) - downloaded 2026-10-29
+PCM-0241,MgCl2-KCl,Eutectic,C,708.15,,,351000,800.0,960.0,0.81,0.81,2110,2110,,0.000272,"one-phase value copied to other phase: k_solid←liquid, rho_liquid←solid",0,Lleida_HT2024,SerranoLopez2013,Lleida/CORA open dataset (CC BY 4.0) - downloaded 2026-10-29
+PCM-0246,NaCl-MgCl2 (48:52 wt%),Eutectic,C,723.15,,,430000,920.0,1000.0,0.95,0.95,2230,2230,,,"one-phase value copied to other phase: k_solid←liquid, rho_liquid←solid",0,Lleida_HT2024,,Lleida/CORA open dataset (CC BY 4.0) - downloaded 2026-10-29
+PCM-0249,KCl-CaCl2-MgCl2,Eutectic,C,760.15,,,342000,800.0,800.0,0.88,0.88,2530,2530,,,"one-phase value copied to other phase: cp_liquid←solid, k_solid←liquid, rho_liquid←solid",0,Lleida_HT2024,,Lleida/CORA open dataset (CC BY 4.0) - downloaded 2026-10-29
+PCM-0250,Li2CO3-K2CO3,Eutectic,C,761.15,,,342000,1030.0,1340.0,1.99,1.99,2220,2220,,,"one-phase value copied to other phase: k_solid←liquid, rho_liquid←solid",0,Lleida_HT2024,,Lleida/CORA open dataset (CC BY 4.0) - downloaded 2026-10-29
+PCM-0254,Li2CO3-Na2CO3 (44:56 wt%),Eutectic,C,769.15,,,370000,1800.0,2090.0,2.09,2.09,2320,2320,,,"one-phase value copied to other phase: k_solid←liquid, rho_liquid←solid",0,Lleida_HT2024,,Lleida/CORA open dataset (CC BY 4.0) - downloaded 2026-10-29
+PCM-0256,NaCl-CaCl2,Eutectic,C,773.15,,,393000,840.0,1000.0,1.2,1.2,2160,2160,,,"one-phase value copied to other phase: k_solid←liquid, rho_liquid←solid",0,Lleida_HT2024,,Lleida/CORA open dataset (CC BY 4.0) - downloaded 2026-10-29
+PCM-0257,CaCl2-KCl-NaCl (66:5:29),Eutectic,C,777.15,,,279000,1170.0,1000.0,1.0,1.0,2150,2150,,,"one-phase value copied to other phase: k_solid←liquid, rho_liquid←solid",0,Lleida_HT2024,,Lleida/CORA open dataset (CC BY 4.0) - downloaded 2026-10-29
+PCM-0259,NaCl-KCl-Na2CO3,Eutectic,C,842.15,,,249000,1340.0,1410.0,0.5,0.5,1700,2000,,,one-phase value copied to other phase: k_solid←liquid,0,Lleida_HT2024,,Lleida/CORA open dataset (CC BY 4.0) - downloaded 2026-10-29
+PCM-0261,NaCl-Na2CO3 (48:52 wt%),Eutectic,C,853.15,,,339000,1300.0,1300.0,0.6,0.6,2000,2000,,,"one-phase value copied to other phase: cp_liquid←solid, k_solid←liquid, rho_liquid←solid",0,Lleida_HT2024,,Lleida/CORA open dataset (CC BY 4.0) - downloaded 2026-10-29
+PCM-0262,Li2CO3-Na2CO3-K2CO3,Eutectic,C,853.15,,,288000,1800.0,2900.0,1.95,1.95,2340,2340,,,"one-phase value copied to other phase: k_solid←liquid, rho_liquid←solid",0,Lleida_HT2024,,Lleida/CORA open dataset (CC BY 4.0) - downloaded 2026-10-29
+PCM-0263,NaCl-Na2SO4-Na2CO3,Eutectic,C,870.15,,,221000,1200.0,1300.0,0.5,0.5,2000,2000,,,"one-phase value copied to other phase: k_solid←liquid, rho_liquid←solid",0,Lleida_HT2024,,Lleida/CORA open dataset (CC BY 4.0) - downloaded 2026-10-29
+PCM-0409,Axiotherm ATS -63,Commercial,C,210.15,208.15,212.15,190000.0,3000,3000,0.6,0.6,1350,1350,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0410,Axiotherm ATS -50,Commercial,C,223.15,222.15,224.15,220000.0,3000,3000,0.6,0.6,1240,1240,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0411,Axiotherm ATS -40,Commercial,C,233.15,233.15,237.15,180000.0,3000,3000,0.6,0.6,1450,1450,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0412,Axiotherm ATS -34,Commercial,C,239.15,239.15,241.15,240000.0,3000,3000,0.6,0.6,1180,1180,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0413,Axiotherm ATS -24,Commercial,C,249.15,249.15,252.15,340000.0,3000,3000,0.6,0.6,1120,1120,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0414,Axiotherm ATS -21,Commercial,C,252.15,252.15,255.15,320000.0,3000,3000,0.6,0.6,1160,1160,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0415,Axiotherm ATS -12,Commercial,C,261.15,259.15,262.15,360000.0,3000,3000,0.6,0.6,1100,1100,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0416,Axiotherm ATS -10,Commercial,C,263.15,262.15,265.15,345000.0,3000,3000,0.6,0.6,1160,1160,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0417,Axiotherm ATS -6,Commercial,C,267.15,267.15,268.15,362000.0,3000,3000,0.6,0.6,1100,1100,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0418,Axiotherm ATS -3,Commercial,C,270.15,269.15,271.15,330000.0,3000,3000,0.6,0.6,1100,1100,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0419,Axiotherm ATP 2,Commercial,C,275.15,275.15,277.15,215000.0,2000,2000,0.2,0.2,760,760,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0420,Axiotherm ATP 4,Commercial,C,277.15,276.15,279.15,260000.0,2000,2000,0.2,0.2,750,750,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0421,Axiotherm ATP 6,Commercial,C,279.15,277.15,279.15,275000.0,2000,2000,0.2,0.2,740,740,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0422,Axiotherm ATP 12,Commercial,C,285.15,285.15,287.15,215000.0,2000,2000,0.2,0.2,800,800,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0423,Axiotherm ATP 16,Commercial,C,289.15,285.15,289.15,245000.0,2000,2000,0.2,0.2,770,770,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0424,Axiotherm ATP 18,Commercial,C,291.15,290.15,291.15,270000.0,2000,2000,0.2,0.2,760,760,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0425,Axiotherm ATP 20,Commercial,C,293.15,,,220000.0,2500.0,2500.0,0.2,0.2,840,840,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,Axiotherm,Manufacturer datasheet - checked 2026-10-30
+PCM-0426,Axiotherm ATP 23,Commercial,C,296.15,294.15,297.15,230000.0,2000,2000,0.2,0.2,800,800,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0427,Axiotherm ATP 28,Commercial,C,301.15,300.15,302.15,265000.0,2000,2000,0.2,0.2,760,760,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0428,Axiotherm ATS 30,Commercial,C,303.15,301.15,306.15,220000.0,2000,2000,0.6,0.6,1300,1300,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0429,Axiotherm ATP 36,Commercial,C,309.15,308.15,310.15,240000.0,2000,2000,0.2,0.2,800,800,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0430,Axiotherm ATP 43,Commercial,C,316.15,314.15,316.15,265000.0,2000,2000,0.2,0.2,760,760,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0431,Axiotherm ATS 44,Commercial,C,317.15,318.15,321.15,230000.0,3000,3000,0.6,0.6,1400,1400,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0432,Axiotherm ATS 50,Commercial,C,323.15,322.15,323.15,228000.0,3000,3000,0.6,0.6,1300,1300,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0433,Axiotherm ATP 52,Commercial,C,325.15,323.15,326.15,230000.0,2000,2000,0.2,0.2,800,800,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0434,Axiotherm ATS 58,Commercial,C,331.15,329.15,331.15,240000.0,3000,3000,0.6,0.6,1280,1280,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0435,Axiotherm ATP 60,Commercial,C,333.15,330.15,333.15,230000.0,2000,2000,0.2,0.2,800,800,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0436,Axiotherm ATP 70,Commercial,C,343.15,339.15,344.15,240000.0,2000,2000,0.2,0.2,800,800,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0437,Axiotherm ATP 78,Commercial,C,351.15,348.15,352.15,225000.0,2000,2000,0.2,0.2,800,800,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0438,Axiotherm ATS 84,Commercial,C,357.15,354.15,358.15,143000.0,2000,2000,0.6,0.6,1650,1650,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0439,Axiotherm ATS 89,Commercial,C,362.15,361.15,364.15,145000.0,2000,2000,0.6,0.6,1580,1580,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0440,Axiotherm ATS 115,Commercial,C,388.15,388.15,391.15,158000.0,2000,2000,0.6,0.6,1500,1500,,,one-phase value copied to other phase: rho_solid←liquid,1,Axiotherm,,Manufacturer datasheet - checked 2026-10-30
+PCM-0468,Insolcorp DuraTemp -70C,Commercial,B,203.15,,,193000.0,3100.0,2900.0,2.1,0.5,1700.0,1600.0,,,solid/liquid as reported,0,DuraTemp,,Manufacturer listing - checked 2026-10-29
+PCM-0469,Insolcorp DuraTemp -21C,Commercial,B,252.15,,,285000.0,3290.0,3050.0,0.56,0.51,1240.0,1210.0,,,solid/liquid as reported,0,DuraTemp,,Manufacturer listing - checked 2026-10-29
+PCM-0470,Insolcorp DuraTemp -16C,Commercial,B,257.15,,,300000.0,4100.0,3900.0,0.57,0.54,1070.0,1060.0,,,solid/liquid as reported,0,DuraTemp,,Manufacturer listing - checked 2026-10-29
+PCM-0471,Insolcorp DuraTemp -12C,Commercial,B,261.15,,,310000.0,3900.0,3600.0,0.61,0.58,1120.0,1090.0,,,solid/liquid as reported,0,DuraTemp,,Manufacturer listing - checked 2026-10-29
+PCM-0473,Insolcorp DuraTemp 48C,Commercial,B,321.15,,,240000.0,2100.0,2900.0,0.62,0.51,1450.0,1330.0,,,solid/liquid as reported,0,DuraTemp,,Manufacturer listing - checked 2026-10-29
+PCM-0474,Insolcorp DuraTemp 53C,Commercial,B,326.15,,,285000.0,2100.0,2900.0,0.62,0.51,1480.0,1400.0,,,solid/liquid as reported,0,DuraTemp,,Manufacturer listing - checked 2026-10-29
+PCM-0475,Insolcorp DuraTemp 58C,Commercial,B,331.15,,,280000.0,2100.0,2900.0,0.62,0.51,1480.0,1400.0,,,solid/liquid as reported,0,DuraTemp,,Manufacturer listing - checked 2026-10-29
+PCM-0478,PlusICE E-74,Commercial,C,199.15,,,230000.0,3150.0,3150.0,0.54,0.54,1280.0,1280.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0479,PlusICE E-73,Commercial,C,200.15,,,223000.0,3150.0,3150.0,0.54,0.54,1298.0,1298.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0480,PlusICE E-72,Commercial,C,201.15,,,215000.0,3150.0,3150.0,0.54,0.54,1315.0,1315.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0481,PlusICE E-71,Commercial,C,202.15,,,208000.0,3150.0,3150.0,0.54,0.54,1333.0,1333.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0482,PlusICE E-70,Commercial,C,203.15,,,200000.0,3150.0,3150.0,0.54,0.54,1350.0,1350.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0483,PlusICE E-69,Commercial,C,204.15,,,202000.0,3150.0,3150.0,0.54,0.54,1350.0,1350.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0484,PlusICE E-68,Commercial,C,205.15,,,205000.0,3150.0,3150.0,0.54,0.54,1360.0,1360.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0485,PlusICE E-67,Commercial,C,206.15,,,200000.0,3150.0,3150.0,0.54,0.54,1380.0,1380.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0486,PlusICE E-65,Commercial,C,208.15,,,240000.0,3150.0,3150.0,0.56,0.56,1180.0,1180.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0487,PlusICE E-63,Commercial,C,210.15,,,230000.0,3150.0,3150.0,0.54,0.54,1200.0,1200.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0488,PlusICE E-62,Commercial,C,211.15,,,224000.0,3150.0,3150.0,0.54,0.54,1230.0,1230.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0489,PlusICE E-61,Commercial,C,212.15,,,218000.0,3150.0,3150.0,0.54,0.54,1260.0,1260.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0490,PlusICE E-60,Commercial,C,213.15,,,212000.0,3150.0,3150.0,0.54,0.54,1290.0,1290.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0491,PlusICE E-59,Commercial,C,214.15,,,206000.0,3150.0,3150.0,0.54,0.54,1320.0,1320.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0492,PlusICE E-58,Commercial,C,215.15,,,200000.0,3150.0,3150.0,0.54,0.54,1350.0,1350.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0493,PlusICE E-57,Commercial,C,216.15,,,230000.0,3150.0,3150.0,0.54,0.54,1380.0,1380.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0494,PlusICE E-56,Commercial,C,217.15,,,228000.0,3150.0,3150.0,0.54,0.54,1400.0,1400.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0495,PlusICE E-55,Commercial,C,218.15,,,223000.0,3150.0,3150.0,0.54,0.54,1420.0,1420.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0496,PlusICE E-54,Commercial,C,219.15,,,219000.0,3150.0,3150.0,0.54,0.54,1440.0,1440.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0497,PlusICE E-53,Commercial,C,220.15,,,215000.0,3150.0,3150.0,0.54,0.54,1460.0,1460.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0498,PlusICE E-52,Commercial,C,221.15,,,211000.0,3150.0,3150.0,0.54,0.54,1480.0,1480.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0499,PlusICE E-51,Commercial,C,222.15,,,206000.0,3150.0,3150.0,0.54,0.54,1500.0,1500.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0500,PlusICE E-50,Commercial,C,223.15,,,175000.0,3280.0,3280.0,0.56,0.56,1325.0,1325.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0501,PlusICE E-49,Commercial,C,224.15,,,202000.0,3280.0,3280.0,0.56,0.56,1510.0,1510.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0502,PlusICE E-48,Commercial,C,225.15,,,202000.0,3280.0,3280.0,0.56,0.56,1510.0,1510.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0503,PlusICE E-37,Commercial,C,236.15,,,225000.0,3150.0,3150.0,0.54,0.54,1500.0,1500.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0504,PlusICE E-34,Commercial,C,239.15,,,200000.0,3050.0,3050.0,0.54,0.54,1205.0,1205.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0505,PlusICE E-32,Commercial,C,241.15,,,225000.0,2950.0,2950.0,0.56,0.56,1290.0,1290.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0506,PlusICE E-29,Commercial,C,244.15,,,250000.0,3690.0,3690.0,0.64,0.64,1420.0,1420.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0507,PlusICE E-26,Commercial,C,247.15,,,265000.0,3670.0,3670.0,0.58,0.58,1250.0,1250.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0508,PlusICE E-22,Commercial,C,251.15,,,305000.0,3340.0,3340.0,0.57,0.57,1180.0,1180.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0509,PlusICE E-21,Commercial,C,252.15,,,285000.0,3130.0,3130.0,0.51,0.51,1240.0,1240.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0510,PlusICE E-19,Commercial,C,254.15,,,300000.0,3290.0,3290.0,0.58,0.58,1125.0,1125.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0511,PlusICE E-15,Commercial,C,258.15,,,320000.0,3870.0,3870.0,0.53,0.53,1060.0,1060.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0512,PlusICE E-11,Commercial,C,261.15,,,310000.0,3550.0,3550.0,0.57,0.57,1090.0,1090.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0513,PlusICE E-6,Commercial,C,267.15,,,300000.0,3830.0,3830.0,0.56,0.56,1110.0,1110.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0514,PlusICE E-3,Commercial,C,269.15,,,330000.0,3840.0,3840.0,0.6,0.6,1060.0,1060.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0515,PlusICE E-2,Commercial,C,271.15,,,325000.0,3800.0,3800.0,0.58,0.58,1070.0,1070.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0516,PlusICE E0,Commercial,C,273.15,,,395000.0,4190.0,4190.0,0.58,0.58,1000.0,1000.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0517,PlusICE A2,Commercial,C,275.15,,,230000.0,2200.0,2200.0,0.21,0.21,765.0,765.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0518,PlusICE A3,Commercial,C,276.15,,,230000.0,2200.0,2200.0,0.21,0.21,765.0,765.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0519,PlusICE A4,Commercial,C,277.15,,,235000.0,2180.0,2180.0,0.21,0.21,766.0,766.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0520,PlusICE A5,Commercial,C,278.15,,,170000.0,2180.0,2180.0,0.22,0.22,768.0,768.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0521,PlusICE A6,Commercial,C,279.15,,,185000.0,2170.0,2170.0,0.21,0.21,768.0,768.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0522,PlusICE A6.5,Commercial,C,279.65,,,190000.0,2180.0,2180.0,0.22,0.22,770.0,770.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0523,PlusICE A7,Commercial,C,280.15,,,190000.0,2180.0,2180.0,0.22,0.22,770.0,770.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0524,PlusICE S8,Commercial,C,281.15,,,130000.0,1900.0,1900.0,0.44,0.44,1475.0,1475.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0525,PlusICE A8,Commercial,C,281.15,,,180000.0,2160.0,2160.0,0.21,0.21,770.0,770.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0526,PlusICE A9,Commercial,C,282.15,,,190000.0,2160.0,2160.0,0.21,0.21,770.0,770.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0527,PlusICE S10,Commercial,C,283.15,,,170000.0,1900.0,1900.0,0.43,0.43,1470.0,1470.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0528,PlusICE A10,Commercial,C,283.15,,,210000.0,2160.0,2160.0,0.22,0.22,770.0,770.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0529,PlusICE A11,Commercial,C,284.15,,,210000.0,2160.0,2160.0,0.22,0.22,775.0,775.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0530,PlusICE A12,Commercial,C,285.15,,,215000.0,2160.0,2160.0,0.22,0.22,775.0,775.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0531,PlusICE S13,Commercial,C,286.15,,,150000.0,1900.0,1900.0,0.43,0.43,1515.0,1515.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0532,PlusICE A13,Commercial,C,286.15,,,225000.0,2160.0,2160.0,0.22,0.22,775.0,775.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0533,PlusICE A14,Commercial,C,287.15,,,200000.0,2160.0,2160.0,0.22,0.22,775.0,775.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0534,PlusICE S15,Commercial,C,288.15,,,180000.0,1900.0,1900.0,0.43,0.43,1510.0,1510.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0535,PlusICE A15,Commercial,C,288.15,,,205000.0,2160.0,2160.0,0.18,0.18,780.0,780.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0536,PlusICE A16,Commercial,C,289.15,,,225000.0,2160.0,2160.0,0.18,0.18,780.0,780.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0537,PlusICE S17,Commercial,C,290.15,,,155000.0,1900.0,1900.0,0.43,0.43,1525.0,1525.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0538,PlusICE A17,Commercial,C,290.15,,,235000.0,2180.0,2180.0,0.18,0.18,780.0,780.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0539,PlusICE S18,Commercial,C,291.15,,,145000.0,1900.0,1900.0,0.43,0.43,1520.0,1520.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0540,PlusICE A18,Commercial,C,291.15,,,155000.0,2180.0,2180.0,0.22,0.22,765.0,765.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0541,PlusICE S19,Commercial,C,292.15,,,175000.0,1900.0,1900.0,0.43,0.43,1520.0,1520.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0542,PlusICE A19,Commercial,C,292.15,,,150000.0,2180.0,2180.0,0.22,0.22,765.0,765.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0543,PlusICE S20,Commercial,C,293.15,,,195000.0,2200.0,2200.0,0.54,0.54,1530.0,1530.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0544,PlusICE A20,Commercial,C,293.15,,,160000.0,2200.0,2200.0,0.22,0.22,770.0,770.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0545,PlusICE S21,Commercial,C,294.15,,,220000.0,2200.0,2200.0,0.54,0.54,1530.0,1530.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0546,PlusICE A21,Commercial,C,294.15,,,160000.0,2200.0,2200.0,0.22,0.22,770.0,770.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0547,PlusICE S22,Commercial,C,295.15,,,215000.0,2200.0,2200.0,0.54,0.54,1530.0,1530.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0548,PlusICE A22,Commercial,C,295.15,,,160000.0,2200.0,2200.0,0.18,0.18,785.0,785.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0549,PlusICE S23,Commercial,C,296.15,,,200000.0,2200.0,2200.0,0.54,0.54,1530.0,1530.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0550,PlusICE A23,Commercial,C,296.15,,,155000.0,2200.0,2200.0,0.18,0.18,785.0,785.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0551,PlusICE S24,Commercial,C,297.15,,,180000.0,2200.0,2200.0,0.54,0.54,1530.0,1530.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0552,PlusICE A24,Commercial,C,297.15,,,155000.0,2220.0,2220.0,0.18,0.18,790.0,790.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0553,PlusICE S25,Commercial,C,298.15,,,175000.0,2200.0,2200.0,0.54,0.54,1530.0,1530.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0554,PlusICE A25,Commercial,C,298.15,,,220000.0,2220.0,2220.0,0.18,0.18,785.0,785.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0555,PlusICE A26,Commercial,C,299.15,,,230000.0,2220.0,2220.0,0.21,0.21,790.0,790.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0556,PlusICE S27,Commercial,C,300.15,,,185000.0,2200.0,2200.0,0.54,0.54,1530.0,1530.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0557,PlusICE A27,Commercial,C,300.15,,,250000.0,2220.0,2220.0,0.22,0.22,768.0,768.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0558,PlusICE A28,Commercial,C,301.15,,,265000.0,2220.0,2220.0,0.21,0.21,789.0,789.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0559,PlusICE A29,Commercial,C,302.15,,,230000.0,2220.0,2220.0,0.21,0.21,785.0,785.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0560,PlusICE A30,Commercial,C,303.15,,,230000.0,2220.0,2220.0,0.21,0.21,790.0,790.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0561,PlusICE A31,Commercial,C,304.15,,,230000.0,2220.0,2220.0,0.21,0.21,790.0,790.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0562,PlusICE S32,Commercial,C,305.15,,,220000.0,1900.0,1900.0,0.51,0.51,1460.0,1460.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0563,PlusICE A32,Commercial,C,305.15,,,120000.0,2200.0,2200.0,0.21,0.21,845.0,845.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0564,PlusICE A33,Commercial,C,306.15,,,230000.0,2220.0,2220.0,0.21,0.21,790.0,790.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0565,PlusICE S34,Commercial,C,307.15,,,140000.0,2100.0,2100.0,0.52,0.52,2100.0,2100.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0566,PlusICE A34,Commercial,C,307.15,,,230000.0,2220.0,2220.0,0.21,0.21,790.0,790.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0567,PlusICE A36,Commercial,C,309.15,,,250000.0,2300.0,2300.0,0.22,0.22,776.0,776.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0568,PlusICE A39,Commercial,C,312.15,,,135000.0,2220.0,2220.0,0.22,0.22,900.0,900.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0569,PlusICE A42,Commercial,C,315.15,,,140000.0,2220.0,2220.0,0.21,0.21,905.0,905.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0570,PlusICE A43,Commercial,C,316.15,,,280000.0,2370.0,2370.0,0.18,0.18,780.0,780.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0571,PlusICE S46,Commercial,C,319.15,,,110000.0,2200.0,2200.0,0.6,0.6,1610.0,1610.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0572,PlusICE A46,Commercial,C,319.15,,,155000.0,2220.0,2220.0,0.22,0.22,910.0,910.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0573,PlusICE S47,Commercial,C,320.15,,,110000.0,2250.0,2250.0,0.6,0.6,1610.0,1610.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0574,PlusICE S48,Commercial,C,321.15,,,110000.0,2350.0,2350.0,0.61,0.61,1565.0,1565.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0575,PlusICE A48,Commercial,C,321.15,,,230000.0,2850.0,2850.0,0.18,0.18,810.0,810.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0576,PlusICE S49,Commercial,C,322.15,,,110000.0,2380.0,2380.0,0.61,0.61,1560.0,1560.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0577,PlusICE S50,Commercial,C,323.15,,,110000.0,2410.0,2410.0,0.62,0.62,1545.0,1545.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0578,PlusICE S51,Commercial,C,324.15,,,110000.0,2450.0,2450.0,0.63,0.63,1515.0,1515.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0579,PlusICE S52,Commercial,C,325.15,,,115000.0,2450.0,2450.0,0.63,0.63,1512.0,1512.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0580,PlusICE S53,Commercial,C,326.15,,,115000.0,2500.0,2500.0,0.65,0.65,1510.0,1510.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0581,PlusICE A53,Commercial,C,326.15,,,155000.0,2220.0,2220.0,0.22,0.22,910.0,910.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0582,PlusICE S54,Commercial,C,327.15,,,120000.0,2500.0,2500.0,0.65,0.65,1510.0,1510.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0583,PlusICE S55,Commercial,C,328.15,,,120000.0,2500.0,2500.0,0.65,0.65,1508.0,1508.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0584,PlusICE S56,Commercial,C,329.15,,,130000.0,2500.0,2500.0,0.67,0.67,1505.0,1505.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0585,PlusICE S57,Commercial,C,330.15,,,135000.0,2500.0,2500.0,0.67,0.67,1505.0,1505.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0586,PlusICE S58,Commercial,C,331.15,,,145000.0,2550.0,2550.0,0.69,0.69,1505.0,1505.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0587,PlusICE A58,Commercial,C,331.15,,,240000.0,2850.0,2850.0,0.18,0.18,820.0,820.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0588,PlusICE A62,Commercial,C,335.15,,,205000.0,2200.0,2200.0,0.22,0.22,910.0,910.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0589,PlusICE S70,Commercial,C,343.15,,,100000.0,2100.0,2100.0,0.57,0.57,1680.0,1680.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0590,PlusICE A70,Commercial,C,343.15,,,225000.0,2200.0,2200.0,0.23,0.23,890.0,890.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0591,PlusICE S72,Commercial,C,345.15,,,155000.0,2130.0,2130.0,0.58,0.58,1666.0,1666.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0592,PlusICE A73,Commercial,C,346.15,,,225000.0,2200.0,2200.0,0.23,0.23,890.0,890.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0593,PlusICE A78,Commercial,C,351.15,,,225000.0,2200.0,2200.0,0.23,0.23,890.0,890.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0594,PlusICE A82,Commercial,C,355.15,,,240000.0,2200.0,2200.0,0.23,0.23,930.0,930.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0595,PlusICE S83,Commercial,C,356.15,,,100000.0,2310.0,2310.0,0.62,0.62,1600.0,1600.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0596,PlusICE S89,Commercial,C,362.15,,,145000.0,2480.0,2480.0,0.67,0.67,1550.0,1550.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0597,PlusICE A95,Commercial,C,368.15,,,260000.0,2200.0,2200.0,0.22,0.22,900.0,900.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0598,PlusICE H105,Commercial,C,377.15,,,125000.0,1500.0,1500.0,0.5,0.5,1700.0,1700.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0599,PlusICE H115,Commercial,C,387.15,,,100000.0,1510.0,1510.0,0.5,0.5,2200.0,2200.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0600,PlusICE S117,Commercial,C,390.15,,,125000.0,2610.0,2610.0,0.7,0.7,1450.0,1450.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0601,PlusICE A118,Commercial,C,391.15,,,195000.0,2200.0,2200.0,0.22,0.22,900.0,900.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0602,PlusICE H120,Commercial,C,393.15,,,120000.0,1510.0,1510.0,0.51,0.51,2220.0,2220.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0603,PlusICE A133,Commercial,C,406.15,,,200000.0,2200.0,2200.0,0.23,0.23,880.0,880.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0604,PlusICE A144,Commercial,C,417.15,,,115000.0,2200.0,2200.0,0.23,0.23,880.0,880.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0605,PlusICE A155,Commercial,C,428.15,,,102000.0,2200.0,2200.0,0.23,0.23,880.0,880.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0606,PlusICE H160,Commercial,C,435.15,,,105000.0,1510.0,1510.0,0.51,0.51,1910.0,1910.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0608,PlusICE H190,Commercial,C,464.15,,,170000.0,1510.0,1510.0,0.51,0.51,2300.0,2300.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0609,PlusICE H220,Commercial,C,493.15,,,100000.0,1520.0,1520.0,0.52,0.52,2000.0,2000.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0610,PlusICE H230,Commercial,C,500.15,,,105000.0,1520.0,1520.0,0.52,0.52,1553.0,1553.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0611,PlusICE H250,Commercial,C,523.15,,,280000.0,1530.0,1530.0,0.52,0.52,2380.0,2380.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0612,PlusICE H255,Commercial,C,527.15,,,270000.0,1530.0,1530.0,0.52,0.52,2380.0,2380.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0613,PlusICE H280,Commercial,C,555.15,,,160000.0,1540.0,1540.0,0.53,0.53,2250.0,2250.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0614,PlusICE H285,Commercial,C,558.15,,,85000.0,1540.0,1540.0,0.53,0.53,2200.0,2200.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0615,PlusICE H290,Commercial,C,565.15,,,150000.0,1550.0,1550.0,0.53,0.53,2200.0,2200.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0616,PlusICE H300,Commercial,C,575.15,,,130000.0,1550.0,1550.0,0.54,0.54,1900.0,1900.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0617,PlusICE H305,Commercial,C,578.15,,,150000.0,1560.0,1560.0,0.54,0.54,1570.0,1570.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0618,PlusICE H320,Commercial,C,593.15,,,70000.0,1500.0,1500.0,0.55,0.55,2100.0,2100.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0619,PlusICE H325,Commercial,C,600.15,,,80000.0,1510.0,1510.0,0.55,0.55,2110.0,2110.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0620,PlusICE H335,Commercial,C,607.15,,,80000.0,1510.0,1510.0,0.55,0.55,2110.0,2110.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0621,PlusICE H355,Commercial,C,626.15,,,230000.0,1520.0,1520.0,0.56,0.56,2060.0,2060.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0622,PlusICE H380,Commercial,C,655.15,,,225000.0,1530.0,1530.0,0.56,0.56,2050.0,2050.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0623,PlusICE H395,Commercial,C,668.15,,,215000.0,1530.0,1530.0,0.56,0.56,2330.0,2330.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0624,PlusICE H425,Commercial,C,698.15,,,220000.0,1540.0,1540.0,0.57,0.57,2100.0,2100.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0625,PlusICE H430,Commercial,C,703.15,,,125000.0,1540.0,1540.0,0.57,0.57,2160.0,2160.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0626,PlusICE H485,Commercial,C,756.15,,,200000.0,1550.0,1550.0,0.57,0.57,2220.0,2220.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0627,PlusICE H500,Commercial,C,773.15,,,300000.0,1550.0,1550.0,0.57,0.57,2220.0,2220.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0628,PlusICE H500A,Commercial,C,773.15,,,140000.0,1560.0,1560.0,0.57,0.57,2140.0,2140.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0629,PlusICE H525,Commercial,C,798.15,,,155000.0,1560.0,1560.0,0.57,0.57,2350.0,2350.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0630,PlusICE H535,Commercial,C,808.15,,,130000.0,1570.0,1570.0,0.56,0.56,2320.0,2320.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0631,PlusICE H610,Commercial,C,883.15,,,410000.0,1570.0,1570.0,0.56,0.56,2070.0,2070.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0632,PlusICE H640,Commercial,C,913.15,,,338000.0,1580.0,1580.0,0.56,0.56,2380.0,2380.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0633,PlusICE H650,Commercial,C,925.15,,,300000.0,1580.0,1580.0,0.56,0.56,2450.0,2450.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0634,PlusICE H690,Commercial,C,960.15,,,250000.0,1590.0,1590.0,0.56,0.56,2400.0,2400.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0635,PlusICE H695,Commercial,C,968.15,,,280000.0,1590.0,1590.0,0.56,0.56,2460.0,2460.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0636,PlusICE H700,Commercial,C,972.15,,,250000.0,1600.0,1600.0,0.57,0.57,2410.0,2410.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0637,PlusICE H705,Commercial,C,978.15,,,250000.0,1600.0,1600.0,0.57,0.57,2430.0,2430.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0638,PlusICE H705A,Commercial,C,978.15,,,452000.0,1600.0,1600.0,0.57,0.57,2040.0,2040.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0639,PlusICE H725,Commercial,C,998.15,,,602000.0,1590.0,1590.0,0.58,0.58,2210.0,2210.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0640,PlusICE H755,Commercial,C,1028.15,,,466000.0,1590.0,1590.0,0.58,0.58,2160.0,2160.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0641,PlusICE H845,Commercial,C,1118.15,,,276000.0,1580.0,1580.0,0.59,0.59,2530.0,2530.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0642,PlusICE H885,Commercial,C,1158.15,,,236000.0,1580.0,1580.0,0.59,0.59,2290.0,2290.0,,,unspecified value used for both phases,0,PlusICE,,Manufacturer catalogue - checked 2026-10-29
+PCM-0654,Pluss savE HS65N,Commercial,C,208.15,,,172000.0,3380.0,3380.0,0.5,0.5,1158,1158,,,"one-phase value copied to other phase: cp_solid←liquid, k_solid←liquid, rho_solid←liquid",0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0657,Pluss savE HS23N,Commercial,B,251.15,,,274000.0,1580.0,3400.0,4.976,0.702,1078,1155,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0658,Pluss savE HS18N,Commercial,C,255.15,,,260000.0,3900.0,3480.0,0.44,0.44,1083,1095,,,one-phase value copied to other phase: k_solid←liquid,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0659,Pluss savE HS15N,Commercial,B,257.15,,,327000.0,1870.0,3400.0,5.26,0.53,1016,1070,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0660,Pluss savE HS10N,Commercial,B,263.15,,,330000.0,1900.0,3400.0,4.25,0.6,1057,1125,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0661,Pluss savE HS3N,Commercial,B,271.15,,,359000.0,1800.0,3980.0,2.2,0.35,985,1060,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0662,Pluss savE HS01,Commercial,B,273.15,,,359000.0,2000.0,3900.0,2.2,0.55,924,1010,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0663,Pluss savE OM03,Commercial,B,278.15,,,196000.0,1760.0,1910.0,0.224,0.146,912,835,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0664,Pluss savE FS03,Commercial,C,278.15,,,214000.0,2200.0,2000.0,0.15,0.15,854,854,,,"one-phase value copied to other phase: k_liquid←solid, rho_liquid←solid",0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0665,Pluss savE OM05-P,Commercial,B,279.15,,,220000.0,2050.0,1820.0,0.13,0.12,810,763,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0666,Pluss savE OM08,Commercial,B,280.15,,,154000.0,1710.0,2110.0,0.235,0.118,1190,1020,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0667,Pluss savE OM18,Commercial,B,291.15,,,169000.0,2920.0,2690.0,0.182,0.175,906,880,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0668,Pluss savE OM18-P,Commercial,B,292.15,,,228000.0,3860.0,3500.0,0.13,0.15,820,763,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0670,Pluss savE OM21,Commercial,B,295.15,,,174000.0,2820.0,2850.0,0.21,0.14,931,891,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0671,Pluss savE HS22,Commercial,B,296.15,,,190000.0,2270.0,2530.0,1.13,0.56,1651,1540,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0672,Pluss savE HS25,Commercial,B,298.15,,,190000.0,2070.0,2420.0,1.05,0.55,1717,1557,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0673,Pluss savE FS29,Commercial,C,300.15,,,160000.0,2700.0,2100.0,0.45,0.45,1040,952,,,one-phase value copied to other phase: k_liquid←solid,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0674,Pluss savE OM29,Commercial,B,301.15,,,194000.0,2320.0,2710.0,0.293,0.172,976,870,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0675,Pluss savE HS29,Commercial,B,302.15,,,214000.0,1510.0,2620.0,0.478,0.382,1681,1530,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0676,Pluss savE FS30,Commercial,B,302.15,,,132000.0,2460.0,2770.0,0.496,0.34,1058,960,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0677,Pluss savE OM30,Commercial,B,305.15,,,206000.0,2600.0,2680.0,0.185,0.123,906,878,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0678,Pluss savE OM32,Commercial,B,306.15,,,156000.0,3210.0,2810.0,0.219,0.145,926,870,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0679,Pluss savE HS36,Commercial,B,308.15,,,163000.0,1980.0,2320.0,0.5,0.47,1967,1850,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0680,Pluss savE OM35,Commercial,B,308.15,,,171000.0,2570.0,2780.0,0.2,0.16,900,870,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0681,Pluss savE OM37,Commercial,B,311.15,,,186000.0,2550.0,2630.0,0.16,0.13,973,860,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0682,Pluss savE OM39,Commercial,B,312.15,,,229000.0,2000.0,2400.0,0.19,0.165,850,824,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0683,Pluss savE OM42,Commercial,B,317.15,,,199000.0,2710.0,2780.0,0.19,0.1,903,863,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0684,Pluss savE FS42,Commercial,C,317.15,,,136000.0,3010.0,2680.0,0.3,0.3,997,1100,,,one-phase value copied to other phase: k_liquid←solid,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0685,Pluss savE OM46,Commercial,B,320.15,,,177000.0,2500.0,2700.0,0.2,0.1,917,880,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0686,Pluss savE OM49,Commercial,B,322.15,,,224000.0,2100.0,2400.0,0.33,0.27,816,780,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0687,Pluss savE OM50,Commercial,B,323.15,,,189000.0,3330.0,2780.0,0.21,0.14,961,859,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0688,Pluss savE HS48,Commercial,B,323.15,,,211000.0,3100.0,3470.0,0.6,0.46,1400,1380,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0689,Pluss savE OM48,Commercial,B,324.15,,,165000.0,2020.0,2350.0,0.2,0.1,960,875,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0690,Pluss savE OM55,Commercial,B,328.15,,,188000.0,2680.0,2760.0,0.16,0.1,935,841,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0691,Pluss savE HS58,Commercial,B,331.15,,,267000.0,2400.0,3150.0,0.61,0.51,1400,1320,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0692,Pluss savE FS65,Commercial,C,339.15,,,159000.0,2540.0,2160.0,0.25,0.25,842,842,,,"one-phase value copied to other phase: k_liquid←solid, rho_liquid←solid",0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0693,Pluss savE OM65,Commercial,B,340.15,,,188000.0,3480.0,3320.0,0.19,0.13,924,847,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0694,Pluss savE HS78,Commercial,B,351.15,,,240000.0,1460.0,1590.0,0.7,0.89,1890,1900,,,solid/liquid as reported,0,Pluss,,Manufacturer datasheet - checked 2026-10-30
+PCM-0696,PureTemp -37,Commercial,B,236.15,,,145000,1390.0,1990.0,0.25,0.15,970.0,880.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
+PCM-0697,PureTemp -21,Commercial,B,252.15,,,239000,1830.0,3430.0,2.39,0.55,1090.0,1170.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
+PCM-0698,PureTemp -15,Commercial,B,258.15,,,301000,1840.0,3500.0,2.34,0.55,980.0,1040.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
+PCM-0699,PureTemp 4,Commercial,B,278.15,,,187000,1780.0,2260.0,0.25,0.15,960.0,880.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
+PCM-0700,PureTemp 8,Commercial,B,281.15,,,178000,1850.0,2150.0,0.22,0.14,950.0,860.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
+PCM-0701,PureTemp 15,Commercial,B,288.15,,,182000,2250.0,2560.0,0.25,0.15,950.0,860.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
+PCM-0702,PureTemp 17,Commercial,C,290.15,,,217000,1880.0,2200.0,0.32,0.14,770,770,,,unspecified value used for both phases,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
+PCM-0703,PureTemp 18,Commercial,B,291.15,,,192000,1470.0,1740.0,0.25,0.15,950.0,860.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
+PCM-0704,PureTemp 20,Commercial,B,293.15,,,171000,2070.0,2150.0,0.23,0.14,950.0,860.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
+PCM-0705,PureTemp 23,Commercial,B,296.15,,,227000,1840.0,1990.0,0.25,0.15,910.0,830.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
+PCM-0706,PureTemp 25,Commercial,B,298.15,,,187000,1990.0,2290.0,0.25,0.15,950.0,860.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
+PCM-0707,PureTemp 27,Commercial,B,300.15,,,202000,2460.0,2630.0,0.25,0.15,950.0,860.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
+PCM-0708,PureTemp 29,Commercial,B,302.15,,,202000,1770.0,1940.0,0.25,0.15,940.0,850.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
+PCM-0709,PureTemp 37,Commercial,B,310.15,,,210000,2210.0,2630.0,0.25,0.15,920.0,840.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
+PCM-0710,PureTemp 48,Commercial,B,322.15,,,230000,2100.0,2270.0,0.25,0.15,900.0,820.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
+PCM-0711,PureTemp 60,Commercial,B,330.15,,,200000,2040.0,2380.0,0.25,0.15,960.0,870.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
+PCM-0712,PureTemp 58,Commercial,B,331.15,,,225000,2470.0,2710.0,0.25,0.15,890.0,810.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
+PCM-0713,PureTemp 63,Commercial,B,336.15,,,206000,1990.0,2160.0,0.25,0.15,920.0,840.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
+PCM-0714,PureTemp 68,Commercial,B,341.15,,,213000,1850.0,1910.0,0.25,0.15,960.0,870.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
+PCM-0716,PureTemp 151,Commercial,B,424.15,,,217000,2060.0,2170.0,0.25,0.15,1490.0,1360.0,,,solid/liquid as reported,0,PureTemp,,Manufacturer data sheet - checked 2026-10-29
+PCM-0755,Rubitherm RT 54 HC,Commercial,B,327.15,,,200000.0,2000,2000,0.2,0.2,990,850,,,solid/liquid as reported,1,Rubitherm,,Manufacturer listing - checked 2026-10-29
+PCM-0756,Rubitherm RT 55,Commercial,B,328.15,,,170000.0,2000,2000,0.2,0.2,880,770,,,solid/liquid as reported,1,Rubitherm,,Manufacturer listing - checked 2026-10-29
+PCM-0759,Rubitherm RT 64 HC,Commercial,B,337.15,,,250000.0,2000,2000,0.2,0.2,880,780,,,solid/liquid as reported,1,Rubitherm,,Manufacturer listing - checked 2026-10-29
