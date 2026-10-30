@@ -6,7 +6,7 @@ Compiled October 2026 by Christopher Sathya.
 
 ## File
 
-`data/pcm_ml_ready_v1_4.csv` — one row per material, 41 columns, UTF-8.
+`data/pcm_ml_ready_v1_4.csv` — one row per material, 44 columns, UTF-8.
 
 ## Columns
 
@@ -20,8 +20,10 @@ Compiled October 2026 by Christopher Sathya.
 | `is_solid_solid` | 1 = solid–solid transition |
 | `latent_is_total_storage` | 1 = supplier value is heat storage capacity over a range (latent + some sensible) |
 | `Tm_C`, `latent_kJkg` | Melting temperature (°C) and latent heat (kJ/kg). Filled for every row |
-| `volumetric_MJm3` | Latent heat × density / 1000 |
-| `cp_kJkgK`, `k_WmK`, `rho_kgm3` + `*_phase` | Best available specific heat, thermal conductivity and density, with the phase they refer to. Blank = not reported |
+| `volumetric_MJm3` | Latent heat × density / 1000 (solid density, else unspecified, else liquid) |
+| `cp_solid_kJkgK`, `cp_liquid_kJkgK`, `cp_unspecified_kJkgK` | Specific heat (kJ/kg·K) for the solid and liquid phase as reported; `_unspecified` = source gives one value without stating the phase |
+| `k_solid_WmK`, `k_liquid_WmK`, `k_unspecified_WmK` | Thermal conductivity (W/m·K), same convention |
+| `rho_solid_kgm3`, `rho_liquid_kgm3`, `rho_unspecified_kgm3` | Density (kg/m³), same convention |
 | `cryst_T_C`, `supercooling_K_from_data` | Crystallization temperature and Tm − cryst_T, where reported |
 | `formula_parsed` … `water_mass_frac` | Descriptors computed from the chemical formula (pure compounds): molar mass, atom counts, halogen/metal atoms, hydrate water count, water mass fraction |
 | `C_chain_len_if_alkane`, `has_COOH_like` | Alkane chain length; carboxylic-acid flag |
