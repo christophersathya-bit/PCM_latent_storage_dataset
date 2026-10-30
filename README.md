@@ -16,58 +16,24 @@ Compiled by **Christopher Sathya**, October 2026.
 | [`data/pcm_cfd_ready_v1_6.csv`](data/pcm_cfd_ready_v1_6.csv) | CFD-ready subset: 313 materials in SI units (K, J/kg, J/(kg·K), W/(m·K), kg/m³, Pa·s, 1/K) |
 | [`data/columns.csv`](data/columns.csv) | Data dictionary for the full dataset (unit, type, description) |
 | [`data/columns_cfd.csv`](data/columns_cfd.csv) | Data dictionary for the CFD subset |
+| [`images/`](images/) | Charts shown in this README (SVG) |
 
 ---
 
 ## Dataset at a glance
 
-```mermaid
-%%{init: {"theme": "base", "themeVariables": {"pie1": "#008300", "pie2": "#eda100", "pie3": "#2a78d6", "pie4": "#eb6834", "pie5": "#1baf7a", "pie6": "#e87ba4", "pieStrokeColor": "#ffffff", "pieOuterStrokeColor": "#ffffff", "pieSectionTextColor": "#ffffff", "pieTitleTextSize": "18px"}}}%%
-pie showData
-    title Materials by category (n = 561)
-    "Commercial products" : 353
-    "Eutectic mixtures" : 66
-    "Organic" : 58
-    "Inorganic" : 58
-    "Metallic" : 16
-    "Composite" : 10
-```
+![Latent heat vs melting temperature](images/latent_vs_tm.svg)
 
-```mermaid
-%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2a78d6"}}}}%%
-xychart-beta
-    title "Number of PCMs per melting-temperature band"
-    x-axis "Melting temperature, Tm (°C)" ["-80/-40", "-40/0", "0/20", "20/40", "40/60", "60/80", "80/100", "100/150", "150/200", "200/300", "300/500", "500/1100"]
-    y-axis "Number of PCMs" 0 --> 130
-    bar [29, 46, 90, 120, 83, 43, 21, 16, 15, 16, 38, 44]
-```
+<p align="center">
+  <img src="images/by_class.svg" width="49%" alt="Materials by class">
+  <img src="images/cfd_tiers.svg" width="49%" alt="CFD readiness tiers">
+</p>
 
-```mermaid
-%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2a78d6"}}}}%%
-xychart-beta
-    title "Distribution of latent heat"
-    x-axis "Latent heat (kJ/kg)" ["0-100", "100-150", "150-200", "200-250", "250-300", "300-400", "400+"]
-    y-axis "Number of PCMs" 0 --> 200
-    bar [21, 92, 150, 178, 60, 44, 16]
-```
+![Latent heat by class](images/latent_by_class.svg)
 
-```mermaid
-%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2a78d6"}}}}%%
-xychart-beta
-    title "Median latent heat by category"
-    x-axis ["Organic", "Commercial", "Eutectic", "Inorganic", "Composite", "Metallic"]
-    y-axis "Median latent heat (kJ/kg)" 0 --> 250
-    bar [213, 206, 180, 175, 136, 70]
-```
+![Thermal conductivity vs melting temperature](images/conductivity_vs_tm.svg)
 
-```mermaid
-%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2a78d6"}}}}%%
-xychart-beta
-    title "Property coverage (% of 561 rows with a value)"
-    x-axis ["Tm", "Latent heat", "Specific heat", "Density", "Conductivity", "InChIKey/SMILES", "Formula descr.", "Cryst. T", "Vol. change", "Solidus/liquidus"]
-    y-axis "Coverage (%)" 0 --> 100
-    bar [100, 100, 64, 64, 61, 20, 23, 18, 17, 8]
-```
+![Solid and liquid property values](images/solid_liquid_coverage.svg)
 
 Median thermal conductivity by category: organics **0.26**, commercial **0.51**, inorganics **0.61**, eutectics **0.95**, composites **4.3**, metals **82 W/(m·K)**. Conductivity spans more than three orders of magnitude, which is the main design trade-off between PCM classes.
 
@@ -192,7 +158,7 @@ Published values for the same material can differ by 10–20 %. Use `sample_weig
 
 If you use this dataset, please cite:
 
-> Sathya, C. (2026). *PCM Latent Heat Storage Dataset — ML- and CFD-ready* (v1.6) [Data set]. GitHub. https://github.com/christophersathya-bit/pcm-latent-heat-dataset
+> Sathya, C. (2026). *PCM Latent Heat Storage Dataset — ML- and CFD-ready* (v1.6) [Data set]. GitHub. https://github.com/christophersathya-bit/PCM_latent_storage_dataset
 
 ## Licence
 
