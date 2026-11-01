@@ -173,4 +173,14 @@ If you use this dataset, please cite:
 
 ## Licence
 
-No licence has been chosen yet. Rows from the University of Lleida / CORA datasets are CC BY 4.0 and must be attributed. Supplier values are cited from public datasheets and remain the property of their publishers.
+The dataset (all files in `data/` and the charts in `images/`) is released under the **[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)** licence. See [`LICENSE`](LICENSE).
+
+You may share and adapt the data for any purpose, including commercial use, provided you give appropriate credit (see *Citation* above) and indicate if changes were made.
+
+**Third-party content**
+
+- Rows from the University of Lleida / CORA datasets (doi 10.34810/data1218, 10.34810/data2156, 10.34810/data1822) are themselves CC BY 4.0. Attribute those datasets as well when you reuse those rows.
+- Values from published papers and handbooks are factual data cited to their source. Please also cite the original sources (listed in `source_key` and the Sources table) for any values you rely on.
+- Product names and trademarks (e.g. Rubitherm, PureTemp, PlusICE, Micronal) belong to their owners. Supplier values come from public datasheets; check the current datasheet before design use.
+
+The data is provided "as is", without warranty of any kind. Verify critical values against the original source before engineering or safety-related use.
