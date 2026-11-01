@@ -1,4 +1,4 @@
-# PCM Latent Heat Storage Dataset — ML- and CFD-ready
+# PCM Latent Heat Storage Dataset ML and CFD ready
 
 ![Materials](https://img.shields.io/badge/materials-766-2a78d6) ![Columns](https://img.shields.io/badge/columns-52-blue) ![CFD-ready](https://img.shields.io/badge/CFD--ready-302-eb6834) ![Sources](https://img.shields.io/badge/sources-36-1baf7a) ![Format](https://img.shields.io/badge/format-CSV-555555) ![Version](https://img.shields.io/badge/version-1.7-555555)
 
