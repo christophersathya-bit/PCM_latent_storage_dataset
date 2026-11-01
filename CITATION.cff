@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "PCM Latent Heat Storage Dataset — ML- and CFD-ready"
+version: "1.7"
+date-released: "2026-11-01"
+authors:
+  - family-names: "Sathiya Satchi"
+    given-names: "Christopher"
+repository-code: "https://github.com/christophersathya-bit/PCM_latent_storage_dataset"
+license: CC-BY-4.0
+abstract: >-
+  Curated dataset of 766 solid–liquid phase change materials (PCMs) and 197
+  composite PCMs for latent heat thermal energy storage (−74 °C to 1085 °C),
+  covering organics, salt hydrates, molten salts, metals, eutectics, composites
+  and commercial products. Every row carries its source and a data-quality flag.
+  Includes a machine-learning-ready table (52 columns) and a CFD-ready subset of
+  302 materials in SI units.
+keywords:
+  - phase change materials
+  - latent heat
+  - thermal energy storage
+  - machine learning
+  - CFD
+  - dataset
