@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
 type: dataset
-title: "PCM Latent Heat Storage Dataset — ML- and CFD-ready"
+title: "PCM Latent Heat Storage Dataset ML and CFD ready"
 version: "1.7"
 date-released: "2026-11-01"
 authors:

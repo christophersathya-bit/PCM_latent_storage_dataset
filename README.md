@@ -169,7 +169,7 @@ Published values for the same material can differ by 10–20 %. Use `sample_weig
 
 If you use this dataset, please cite it (GitHub's **Cite this repository** button gives APA and BibTeX):
 
-> Sathiya Satchi, C. (2026). *PCM Latent Heat Storage Dataset — ML- and CFD-ready* (v1.7) [Data set]. GitHub. https://github.com/christophersathya-bit/PCM_latent_storage_dataset
+> Sathiya Satchi, C. (2026). *PCM Latent Heat Storage Dataset ML and CFD ready* (v1.7) [Data set]. GitHub. https://github.com/christophersathya-bit/PCM_latent_storage_dataset
 
 ## Licence
 
